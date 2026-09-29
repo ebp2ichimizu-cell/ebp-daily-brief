@@ -1,0 +1,115 @@
+{
+  "date": "2026-09-25",
+  "pdf_url": "https://drive.google.com/file/d/1pAVEkWKrVrTD8inUsDqmRIbHsSIgSRz2/view?usp=drivesdk",
+  "articles": [
+    {
+      "id": "20260925-01",
+      "title": "トクリュウ対策「遠隔解析」、有識者会議が早期導入を提言―犯罪発生後の捜査から被害未然防止へ",
+      "category": "警察実務",
+      "tags": [
+        "実務実装",
+        "研究課題",
+        "特殊詐欺対策"
+      ],
+      "region": "domestic",
+      "summary": "警察庁の有識者検討会が、トクリュウ対策としてスマートフォン等への「遠隔解析」の早期導入を求める提言を取りまとめた。制度導入後は、未然防止件数だけでなく、情報取得から保護・犯行阻止までのプロセス評価が課題となる。",
+      "facts": [
+        "9月24日、匿名・流動型犯罪グループが使用するスマートフォン等への外部アクセスによる「遠隔解析」の早期導入を求める提言が取りまとめられた。",
+        "報道で確認できる制度案では、重大犯罪の具体的危険があり、他の方法では必要情報を得られない場合などに、裁判官の許可状を得て実施する。",
+        "取得対象には標的の氏名・住所、実行役、凶器等が想定され、許可範囲外の情報を削除する仕組みが示されている。"
+      ],
+      "interpretation": "EBP/EBPM上の論点は制度導入の是非だけでなく、導入後に何をアウトカムとして測るかにある。遠隔解析による情報取得→標的特定→警戒・保護→犯行中止・検挙という過程を分解し、通常捜査と比較可能な指標を事前設計する必要がある。",
+      "evidence": {
+        "level": "high-policy",
+        "description": "制度設計の一次的政策動向として高い。一方、犯罪予防効果は未検証。"
+      },
+      "limitations": [
+        "現時点は制度提言段階で、犯罪抑止効果を示す実証研究ではない。",
+        "通信の秘密・プライバシーへの制約が大きく、令状審査、対象犯罪、必要性・補充性、取得外情報の削除、事後通知、外部監督等の実効性は今後の制度設計と運用評価に依存する。"
+      ],
+      "implications": "制度化後は、未然防止の評価設計そのものが国内EBP研究候補となる。導入後に都合のよい数字を選ぶのではなく、事前にアウトカムと反証条件を置くことが重要。",
+      "source": {
+        "name": "FNNプライムオンライン",
+        "title": "トクリュウ対策「遠隔解析」に関する報道",
+        "url": "https://www.fnn.jp/articles/-/1120256",
+        "published_date": "2026-09-24",
+        "type": "other"
+      },
+      "related_research": []
+    },
+    {
+      "id": "20260925-02",
+      "title": "道路安全を「事故件数」ではなくharmで評価―Cumbria Road Harm Indexが英国EBP賞",
+      "category": "EBP実務",
+      "tags": [
+        "海外比較",
+        "実務実装",
+        "関連研究",
+        "harm"
+      ],
+      "region": "international",
+      "summary": "Cumbria PoliceのRoad Harm Indexは、衝突事故を単純件数ではなく重大度で重み付けして評価する。被害の大きさに基づく資源配分という点で、犯罪予防にも応用可能な考え方である。",
+      "facts": [
+        "University of Cambridge Institute of Criminologyは9月24日、Cumbria PoliceのJack Stabler警部がSociety of Evidence Based Policing Innovation Awardを受賞したと公表した。",
+        "Road Harm Indexは、英国運輸省の事故予防コストデータを用いて衝突事故の重大度を重み付けする。",
+        "CumbriaのRoad Safety Partnershipの問題解決に組み込まれ、Newcastle Universityと学術評価も進められている。",
+        "警察は導入後2年間で死亡・重傷者が15%減少したと報告している。"
+      ],
+      "interpretation": "犯罪認知件数をすべて同じ1件として扱うより、被害の重大性を重み付けしたharm指標を併用することで、限られた警察資源を『件数が多い場所』ではなく『被害が大きい場所・問題』へ配分できる可能性がある。",
+      "evidence": {
+        "level": "moderate",
+        "description": "実務実装として中程度。公開情報だけでは因果効果は評価困難。"
+      },
+      "limitations": [
+        "15%減少は導入前後の実績値であり、公開情報だけでは対照地域、趨勢調整、回帰分析等の詳細を確認できない。",
+        "Road Harm Indexの導入が減少を因果的に生んだとは言えない。",
+        "重み付けには政策価値判断が含まれるため、指標の透明性と感度分析が必要。"
+      ],
+      "implications": "特殊詐欺、暴力、再被害などでも、単純件数に加えてharmベースの指標を併用する発想が参考になる。",
+      "source": {
+        "name": "University of Cambridge Institute of Criminology",
+        "title": "Jack Stabler receives Innovation Award from Society of Evidence Based Policing",
+        "url": "https://www.crim.cam.ac.uk/news/jack-stabler-receives-innovation-award-society-evidence-based-policing",
+        "published_date": "2026-09-24",
+        "type": "research"
+      },
+      "related_research": []
+    },
+    {
+      "id": "20260925-03",
+      "title": "オランダ警察・NCSC等が共同警告―AIは攻撃チェーンの自動化を加速、ただし定量的効果は未提示",
+      "category": "AI・データ",
+      "tags": [
+        "隣接エビデンス",
+        "実務実装",
+        "AI",
+        "サイバー"
+      ],
+      "region": "international",
+      "summary": "オランダ警察など複数政府機関が、AIによってサイバー攻撃の高速化・大規模化が進んでいるとして共同警告を公表した。方向性は示されるが、AIの定量的寄与は公開資料から評価できない。",
+      "facts": [
+        "オランダ警察、NCSC、NCTV、情報機関、検察、政府CIO等が9月24日に共同声明を公表した。",
+        "AIは脆弱性探索から悪用まで攻撃チェーンを自動化し、既存の容易に利用できるモデルでも攻撃の自動化・効率化が可能と説明している。",
+        "組織幹部に、基本的セキュリティ対策、現行防御水準の再評価、AI関連シグナルの重視を求めた。"
+      ],
+      "interpretation": "警察・自治体のAI対策では、高度な生成AIだけを脅威モデルにするのではなく、既存モデルによる探索・分析・反復の高速化を前提に、パッチ適用時間、認証、ログ監視、権限分離等を評価する必要がある。",
+      "evidence": {
+        "level": "moderate",
+        "description": "政府機関の脅威評価として中程度。AIの定量的寄与は評価困難。"
+      },
+      "limitations": [
+        "共同声明は脅威評価・政策警告であり、AI導入前後の攻撃成功率や被害増加率を示す研究ではない。",
+        "AIが攻撃を増幅している方向性は示されるが、その大きさや犯罪被害への因果寄与は定量評価できない。"
+      ],
+      "implications": "AI時代のサイバー対策では、AI利用の有無より、脆弱性発見から悪用までの時間と防御側の応答時間を測る視点が重要。",
+      "source": {
+        "name": "Politie Nederland",
+        "title": "AI versnelt en vergroot de dreiging: nu handelen noodzakelijk",
+        "url": "https://www.politie.nl/nieuws/2026/september/24/ai-versnelt-en-vergroot-de-dreiging-nu-handelen-noodzakelijk.html",
+        "published_date": "2026-09-24",
+        "type": "government"
+      },
+      "related_research": []
+    }
+  ]
+}

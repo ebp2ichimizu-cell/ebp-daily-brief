@@ -1,69 +1,118 @@
 {
   "date": "2026-09-29",
-  "pdf_folder_url": "https://drive.google.com/drive/folders/17L-6pARPBwcP827R2pij6D_AI55DQM3R",
-  "pdf_url": "https://drive.google.com/drive/folders/17L-6pARPBwcP827R2pij6D_AI55DQM3R",
+  "pdf_url": "https://drive.google.com/file/d/1-RDpA4p5HJnGaLeRYbPynLZTN6f4iOVO/view?usp=drivesdk",
   "articles": [
     {
       "id": "20260929-01",
-      "title": "サンプル：公的機関による犯罪予防施策の新資料",
-      "category": "警察実務",
+      "title": "手続的公正は「相手の反応が悪いから効いていない」と判断できない―米国成人1,904人のランダム化ビネット実験",
+      "category": "研究",
       "tags": [
-        "犯罪予防",
-        "EBP",
-        "警察実務"
+        "海外比較",
+        "関連研究",
+        "研究課題",
+        "手続的公正"
       ],
-      "region": "domestic",
-      "summary": "GitHub版での表示確認用サンプルです。実運用時には当日の記事データに置き換えてください。",
+      "region": "international",
+      "summary": "米国成人1,904人を対象とした交通停止場面のランダム化ビネット実験で、手続的公正の条件差が正当性、満足、服従・協力意向に大きく関連した。個人の反応と警察官の行動を分けて測る必要性が示される。",
       "facts": [
-        "一次資料が公表された。",
-        "施策内容と評価方法が記載されている。"
+        "Journal of Experimental Criminologyに9月28日、交通停止場面を用いたランダム割付ビネット実験が公開された。",
+        "最終分析標本は米国成人1,904人。",
+        "警察官の対応を、完全な手続的公正、部分的手続的公正、事務的対応、有利な結果、手続的不公正の5条件に割り付け、正当性、満足、服従・協力意向を測定した。",
+        "平均評価は有利な結果4.23、部分的公正4.22、完全公正4.18、事務的3.74、不公正2.02で、条件効果は大きかった（η²=0.58）。"
       ],
-      "interpretation": "施策の紹介と効果検証の結果は分けて読む必要があります。",
+      "interpretation": "同じ公正な対応でも個人特性によって反応が異なり得るため、一人の不満反応だけで手続的公正の成否を判断すべきではない。市民アンケートだけでなく、観察やボディカメラ等による警察官行動の評価を併用する設計が望ましい。",
       "evidence": {
-        "level": "moderate",
-        "description": "評価デザインや比較対象の有無を確認した上で判断します。"
+        "level": "moderate-high",
+        "description": "ランダム化ビネット実験として中～高。実地警察活動への一般化は中程度以下。"
       },
       "limitations": [
-        "サンプル記事のため実在する施策を評価していません。"
+        "実際の職務質問・交通取締りではなく仮想シナリオであり、外的妥当性に限界がある。",
+        "米国サンプルであり、日本の警察活動へ効果量を直接一般化できない。",
+        "研究の主眼はナルシシズム特性との相互作用であり、手続的公正の現場介入効果を直接測ったRCTではない。"
       ],
-      "implications": "原典へ直接移動できる導線をWeb版にも設けます。",
+      "implications": "接遇評価では、市民の主観評価と警察官側の行動指標を分け、複数の測定方法で評価することが重要。",
       "source": {
-        "name": "公的機関（サンプル）",
-        "title": "資料タイトル（サンプル）",
-        "url": "https://example.com/",
-        "published_date": "2026-09-29",
-        "type": "government"
+        "name": "Journal of Experimental Criminology",
+        "title": "Procedural justice vignette experiment",
+        "url": "https://link.springer.com/article/10.1007/s11292-026-09781-1",
+        "published_date": "2026-09-28",
+        "type": "research"
       },
       "related_research": []
     },
     {
       "id": "20260929-02",
-      "title": "サンプル：海外のEBP研究",
-      "category": "研究",
+      "title": "CCTV映像から4種の犯罪を93.8%分類―ただし「現場で犯罪を検知できる」とはまだ言えない",
+      "category": "AI・データ",
       "tags": [
-        "EBP",
-        "効果検証"
+        "隣接エビデンス",
+        "研究課題",
+        "CCTV",
+        "AI"
       ],
       "region": "international",
-      "summary": "海外研究の表示確認用サンプルです。",
+      "summary": "CCTV様映像から4種の犯罪行動を分類するAI手法が、研究用データセットで93.8%の精度を報告した。ただし、これは現場での犯罪検知率や犯罪減少効果を示すものではない。",
       "facts": [
-        "査読研究として公表された。"
+        "Discover Artificial Intelligenceに、CCTV様映像から銃器脅威、乗客への攻撃、軽微窃盗、器物損壊を分類するCTAG-CRNetが公開された。",
+        "データは実映像と演出映像を含む1,516本の元動画、12,128イベントクリップ。",
+        "元動画単位で約60/20/20%に訓練・検証・テストを分割し、同一元動画のクリップが訓練とテストに跨らないようにした。",
+        "テスト上の精度は93.8%、macro F1は93.1%。"
       ],
-      "interpretation": "日本への適用可能性は文脈差を確認する必要があります。",
+      "interpretation": "防犯カメラAIの評価では、単純な画像認識精度だけでなく、犯罪類型別precision/recall、誤警報数、見逃し、処理遅延、オペレーター確認後の措置までファネルで評価する必要がある。",
       "evidence": {
         "level": "moderate",
-        "description": "研究デザインに基づきエビデンスの確実性を説明します。"
+        "description": "AI手法研究として中程度。現場有効性・犯罪予防効果は未検証。"
       },
       "limitations": [
-        "制度・警察活動・地域条件が日本と異なる可能性があります。"
+        "研究用に編集・アノテーションされたデータセット上の分類性能であり、連続する実際の街頭CCTVでの前向き実証ではない。",
+        "データには演出映像も含まれ、対象犯罪は4類型に限定される。",
+        "93.8%を実運用時の犯罪検知率、犯罪減少率、警察業務改善率として扱うことはできない。"
       ],
-      "implications": "海外研究は国内実務へ直接一般化せず、比較材料として扱います。",
+      "implications": "日本で実装評価する場合は、モデル精度だけでなく運用時の誤警報・見逃し・処理遅延・人間判断後のアウトカムまで追う設計が必要。",
       "source": {
-        "name": "Journal (sample)",
-        "title": "Article title (sample)",
-        "url": "https://example.org/",
+        "name": "Discover Artificial Intelligence",
+        "title": "CTAG-CRNet crime classification study",
+        "url": "https://link.springer.com/article/10.1007/s44163-026-02323-8",
         "published_date": "2026-09-28",
         "type": "research"
+      },
+      "related_research": []
+    },
+    {
+      "id": "20260929-03",
+      "title": "顔認証の一致候補を「本人確認」に格上げし、無実の男性を逮捕―技術精度より捜査プロセスの失敗が核心",
+      "category": "AI・データ",
+      "tags": [
+        "海外比較",
+        "実務実装",
+        "研究課題",
+        "顔認証",
+        "AI"
+      ],
+      "region": "international",
+      "summary": "顔認証の一致候補を十分な裏付けなしに本人確認へ格上げし、無実の男性を逮捕したとされる事例。アルゴリズム精度だけでなく、捜査プロセス上の確認手続を評価対象に含める必要性を示す。",
+      "facts": [
+        "Florida Phoenix/The Florida Tribは9月28日、Jacksonvilleの捜査で顔認証の一致候補から無実の男性が逮捕された事例を報じた。",
+        "別人が本人の写真を使ってオンライン上でなりすましていたが、捜査側は写真を顔認証で照合して男性を特定し、アカウント情報や端末・通信データ等の基本的な裏付けを十分行わないまま逮捕したとされる。",
+        "後に実際の行為者が写真の無断使用を認め、男性の事件は裁判官により『法に反する又は誤りによる逮捕』として抹消命令が出た。"
+      ],
+      "interpretation": "顔認証結果を捜査端緒として扱い、独立したデジタル証拠・アリバイ・アカウント情報で検証する手続がなければ、技術の候補提示が事実上の本人認定へ変質する。AI導入評価には、人間側の確認手続・停止条件・監督も含める必要がある。",
+      "evidence": {
+        "level": "moderate-case",
+        "description": "実装上の失敗事例として中程度。一般的な誤認率・因果効果は評価困難。"
+      },
+      "limitations": [
+        "査読研究や体系的な件数調査ではなく、個別事件の調査報道である。",
+        "顔認証システム自体が誤って別人を最上位候補にしたのか、本人写真が悪用されていたため正しく一致したのかは区別が必要で、この事例は後者に近い。",
+        "『顔認証の精度不足による誤認逮捕』と単純化するのは不正確。"
+      ],
+      "implications": "顔認証の評価はアルゴリズム性能だけでなく、候補提示後の独立確認、停止条件、監督、捜査判断まで含むプロセス評価として設計すべき。",
+      "source": {
+        "name": "Florida Phoenix / The Florida Trib",
+        "title": "How AI-powered bungling by Florida cops cost a father his freedom and $45,000",
+        "url": "https://floridaphoenix.com/2026/09/28/how-ai-powered-bungling-by-florida-cops-cost-a-father-his-freedom-and-45000/",
+        "published_date": "2026-09-28",
+        "type": "other"
       },
       "related_research": []
     }

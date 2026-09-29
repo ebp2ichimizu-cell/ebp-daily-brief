@@ -2,8 +2,18 @@
   "entries": [
     {
       "date": "2026-09-29",
-      "count": 2,
+      "count": 3,
       "file": "data/briefs/2026-09-29.json"
+    },
+    {
+      "date": "2026-09-28",
+      "count": 2,
+      "file": "data/briefs/2026-09-28.json"
+    },
+    {
+      "date": "2026-09-25",
+      "count": 3,
+      "file": "data/briefs/2026-09-25.json"
     }
   ]
 }

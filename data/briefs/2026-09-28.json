@@ -1,0 +1,80 @@
+{
+  "date": "2026-09-28",
+  "pdf_url": "https://drive.google.com/file/d/1cx8x9Gruv8qf7k4C5rvgHvsZO8Uw7esI/view?usp=drivesdk",
+  "articles": [
+    {
+      "id": "20260928-01",
+      "title": "国連「アブダビ宣言」採択―犯罪予防を evidence-based と明記、AIには人間の監督・透明性・適正手続を要求",
+      "category": "国際政策",
+      "tags": [
+        "海外比較",
+        "実務実装",
+        "研究課題",
+        "AI",
+        "EBP"
+      ],
+      "region": "international",
+      "summary": "第15回国連犯罪防止刑事司法会議で「アブダビ宣言」が採択され、エビデンスに基づく犯罪予防と、刑事司法における責任あるAI利用が主要論点として示された。",
+      "facts": [
+        "第15回国連犯罪防止刑事司法会議が9月26日に開幕し、今後5年間の国際的方向性を示す「アブダビ宣言」が採択された。",
+        "宣言は、革新的でエビデンスに基づく犯罪予防、サイバー犯罪・オンライン詐欺等への対応、データとエビデンスの活用、刑事司法におけるAI・先端技術の責任ある利用を主要論点に含む。",
+        "AI利用では、人間による監督、透明性、適正手続、データ保護等の保障を伴わせる方向が示されている。"
+      ],
+      "interpretation": "AI導入とEBPを別々の政策課題として扱わず、技術導入・評価・ガバナンスを一体で設計する方向性が重要。精度だけでなく、偽陽性・偽陰性、属性別性能、人間による上書き、権利侵害、最終アウトカムまで評価する必要がある。",
+      "evidence": {
+        "level": "high-policy",
+        "description": "国際政策の方向性を示す一次的動向として高いが、個別施策の効果エビデンスではない。"
+      },
+      "limitations": [
+        "宣言は国際的な政治文書であり、個別施策の効果を示す研究ではない。",
+        "各国がどの研究基準・評価設計を採用するかは別問題であり、AIの具体的な許容範囲や監査手続も各国制度に委ねられる。"
+      ],
+      "implications": "日本でAIを警察活動へ導入する場合も、導入件数や処理速度だけでなく、評価とガバナンスを事前に組み込む必要がある。",
+      "source": {
+        "name": "Abu Dhabi Media Office",
+        "title": "15th United Nations Congress on Crime Prevention and Criminal Justice Abu Dhabi 2026",
+        "url": "https://www.mediaoffice.abudhabi/en/security/15th-united-nations-congress-on-crime-prevention-and-criminal-justice-abu-dhabi-2026-takes-place-in-the-emirate/",
+        "published_date": "2026-09-26",
+        "type": "government"
+      },
+      "related_research": []
+    },
+    {
+      "id": "20260928-02",
+      "title": "英国Police STAR Fundの2027/28公募が開始―現場発の研究・技術を「課題→検証→実装」へ",
+      "category": "EBP実務",
+      "tags": [
+        "海外比較",
+        "実務実装",
+        "研究課題",
+        "EBP"
+      ],
+      "region": "international",
+      "summary": "英国Police STAR Fundの2027/28公募が開始された。現場課題を短い課題定義から研究・技術案件へ育てる仕組みとして、EBP実装基盤の参考になる。",
+      "facts": [
+        "Office of the Police Chief Scientific AdviserのPolice STAR Fund 2027/28公募が9月28日に開始された。",
+        "地方警察を中心に、科学・技術・分析・研究を使って警察課題を解決する案件を支援する制度で、約750語のExpression of Interestを提出する2段階方式。",
+        "2020年の制度開始以降、31警察本部・8 PCCの100件超、さらに18の全国案件を支援し、総額は1,400万ポンド超。",
+        "今回のEOI締切は10月26日。"
+      ],
+      "interpretation": "資金額よりも、現場の問題意識を『短い課題定義→研究・技術案→期待便益→詳細設計』へ段階化し、警察と研究者・技術者の共同案件へ育てる制度設計に価値がある。",
+      "evidence": {
+        "level": "moderate",
+        "description": "EBPインフラの実装事例として中程度。制度自体の効果は評価困難。"
+      },
+      "limitations": [
+        "これは研究成果ではなく研究・イノベーション助成制度であり、採択案件が犯罪減少や業務改善を生むことを保証しない。",
+        "支援件数や総額はアウトプットであり、制度自体の費用対効果、採択案件の成功率、失敗・中止案件の割合は公開ページだけでは評価できない。"
+      ],
+      "implications": "日本でも、警察現場の小規模な課題を外部研究者と結び、評価まで含めて支援する常設型のEBP実装基盤を考える際の参考になる。",
+      "source": {
+        "name": "Office of the Police Chief Scientific Adviser",
+        "title": "Police STAR Fund: How to apply",
+        "url": "https://science.police.uk/opportunities/police-star-fund/how-to-apply/",
+        "published_date": "2026-09-28",
+        "type": "government"
+      },
+      "related_research": []
+    }
+  ]
+}
