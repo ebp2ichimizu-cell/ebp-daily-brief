@@ -124,3 +124,37 @@ input,select{
   .panel{padding:18px}
   .container{width:min(100% - 20px,1100px)}
 }
+
+/* v1.3: legacy header/logo preserved from the prior site */
+.legacy-header{padding:0;background:#0f2a3b;color:#fff;border-top:12px solid transparent;border-image:linear-gradient(90deg,#b9553e 0 31%,#e5aa36 31% 39%,#17324d 39%) 1}
+.legacy-header .container{padding-top:34px;padding-bottom:28px}
+.brand-row{display:flex;align-items:center;gap:26px}
+.brand-left{display:flex;align-items:center;gap:18px;min-width:0}
+.brand-logo{display:block;flex:0 0 auto}
+.daily-logo{width:120px;height:120px;border-radius:50%;object-fit:cover}
+.brand-project{display:flex;flex-direction:column;gap:5px}
+.brand-project strong{font-size:1.35rem;white-space:nowrap}
+.brand-project span,.brand-title span{font-size:.8rem;font-weight:700;letter-spacing:.14em;color:#b9c8d2}
+.brand-divider{width:1px;height:90px;background:#547082}
+.brand-title{display:flex;flex-direction:column;gap:10px;min-width:0}
+.brand-title strong{font-size:2rem;letter-spacing:.08em}
+.top-nav{display:flex;gap:38px;flex-wrap:wrap;margin-top:34px}
+.top-nav a{color:#e6edf2;text-decoration:none;font-weight:700;font-size:1.15rem}
+.top-nav a:hover{text-decoration:underline;text-underline-offset:5px}
+.production-panel{scroll-margin-top:20px}
+.production-panel p{margin:.9rem 0}
+.section-rule{border:0;border-top:1px solid var(--line);margin:28px 0}
+.contact-block h2{margin-top:0}
+.contact-block a{font-weight:700;text-underline-offset:3px}
+@media(max-width:720px){
+  .legacy-header .container{padding-top:28px;padding-bottom:24px}
+  .brand-row{gap:16px}
+  .brand-left{gap:12px}
+  .daily-logo{width:92px;height:92px}
+  .brand-project strong{font-size:1.02rem}
+  .brand-project span,.brand-title span{font-size:.64rem}
+  .brand-divider{height:74px}
+  .brand-title strong{font-size:1.35rem}
+  .top-nav{gap:18px 24px;margin-top:24px}
+  .top-nav a{font-size:1rem}
+}

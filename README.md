@@ -46,3 +46,6 @@ GitHubリポジトリに一式を置き、Settings → Pages で main ブラン�
 - アーカイブ上部：「PDF保管フォルダ」→ Google Driveの月別保管フォルダ
 - 各日：「この日のPDF版を開く」→ その日のPDFファイル直リンク
 - 日次JSONの `pdf_url` には、フォルダURLではなく、その日のPDFファイル共有URLを設定してください。
+
+## v1.3 表示修正
+添付画像の既存ロゴ・上部デザインを基準にし、下部のみ「制作について」→「お問い合わせ」を追加。メールは mailto:ebp2.ichimizu@gmail.com。
