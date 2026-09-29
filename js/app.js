@@ -142,10 +142,10 @@ function renderArchive(){
   document.getElementById("archive").innerHTML = months.map((m,mi)=>{
     const [y,mo]=m.split("-");
     const days=byMonth[m].sort((a,b)=>b.date.localeCompare(a.date));
-    return `<details class="archive-month" ${mi===0?"open":""}>
+    return `<details class="archive-month">
       <summary>${y}年${Number(mo)}月　${days.reduce((n,b)=>n+b.articles.length,0)}件</summary>
       ${days.map((b,di)=>`
-        <details class="archive-day" ${mi===0 && di===0?"open":""}>
+        <details class="archive-day">
           <summary>${jpDate(b.date)}　${b.articles.length}件</summary>
           <ol class="archive-list">
             ${b.articles.map(a=>`<li><a href="#${esc(a.id)}" data-article-id="${esc(a.id)}">${esc(a.title)}</a></li>`).join("")}
