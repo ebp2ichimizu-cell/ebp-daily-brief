@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-10",
+  "pdf_url": "https://drive.google.com/file/d/1z4qQGQ8OR0Rcq70brAIpUcCjOvKci7Oj/view?usp=drivesdk",
+  "articles": [
+    {
+      "id": "20260910-01",
+      "title": "台湾警察のEBP 受容性は低い。中央集権型組織では「研究との接点」が鍵",
+      "category": "研究",
+      "tags": [
+        "EBP"
+      ],
+      "region": "international",
+      "summary": "2026 年8 月25 日公開の Policing: A Journal of Policy and Practice の研究では、台湾の3 警察組織に所属する 1,189 人の警察官を調査しています。研究を有用と捉え研究者との協働を評価した警察官は30.3%、日常的意思決定で 科学的知見を経験より優先すべきとした者は8%未満でした。一方、修士号保有と専門誌・専門出版物を読むことが研究 受容性の強い予測因子でした。",
+      "facts": [
+        "2026 年8 月25 日公開の Policing: A Journal of Policy and Practice の研究では、台湾の3 警察組織に所属する 1,189 人の警察官を調査しています。",
+        "研究を有用と捉え研究者との協働を評価した警察官は30.3%、日常的意思決定で 科学的知見を経験より優先すべきとした者は8%未満でした。",
+        "一方、修士号保有と専門誌・専門出版物を読むことが研究 受容性の強い予測因子でした。"
+      ],
+      "interpretation": "台湾と日本の警察制度は同一ではありませんが、欧米の分権型警察と比べれば、中央集権的な組織構造という比較 軸があります。重要なのは、単に「EBP 教育をすればよい」ではなく、研究に接触する習慣そのものが受容性と関連し ている点です。 • 実務家が研究を読む • 研究者と話す • 自ら検証に関与する いちみず会のような仕組みは、この「研究との接点不足」という障壁に作用する可能性があります。ただし、本研究か ら勉強会の因果効果まで言えるわけではありません。",
+      "evidence": {
+        "level": "",
+        "description": "中程度。横断的質問紙調査なので、専門誌を読むことでEBP 志向になったのか、もともとEBP 志向の 人が専門誌を読むのかは確定できません。因果関係ではなく関連です。"
+      },
+      "limitations": [],
+      "implications": "",
+      "source": {
+        "name": "Oxford Academic ・原論文",
+        "title": "",
+        "url": "https://academic.oup.com/policing/article-abstract/doi/10.1093/police/paag045/8770656",
+        "published_date": "",
+        "type": "research"
+      },
+      "related_research": []
+    },
+    {
+      "id": "20260910-02",
+      "title": "英国が「警察への信頼」をリアルタイムで測り、施策効果まで検証する大型研究へ",
+      "category": "研究",
+      "tags": [],
+      "region": "international",
+      "summary": "UK Research and Innovation（UKRI）は、警察への信頼・信任を測定・改善する研究コンソーシアムに最大200 万ポンドを投入する公募を2026 年9 月1 日に開始しました。研究は、リアルタイムに近い住民フィードバック手法の開 発、信頼を改善する介入の試行、警察活動と測定結果の統合、実務向けPlaybook への反映までを対象とします。試 行・改善は2029 年3 月まで、Playbook への貢献は2029 年12 月までが予定されています。",
+      "facts": [
+        "UK Research and Innovation（UKRI）は、警察への信頼・信任を測定・改善する研究コンソーシアムに最大200 万ポンドを投入する公募を2026 年9 月1 日に開始しました。",
+        "研究は、リアルタイムに近い住民フィードバック手法の開 発、信頼を改善する介入の試行、警察活動と測定結果の統合、実務向けPlaybook への反映までを対象とします。",
+        "試 行・改善は2029 年3 月まで、Playbook への貢献は2029 年12 月までが予定されています。"
+      ],
+      "interpretation": "見るべきなのは「信頼を大事にしましょう」という理念ではなく、警察施策 → 住民反応 → 信頼・正統性 → 施策 改善というフィードバックループを設計しようとしている点です。防犯教室や巡回活動でも、実施回数ではなく、認 知・行動・不安感・被害リスクの変化まで測る発想につながります。",
+      "evidence": {
+        "level": "",
+        "description": "現時点では評価困難。まだ研究計画・公募段階であり、介入効果は示されていません。ただし、評価設 計そのものの参考価値は高いです。"
+      },
+      "limitations": [],
+      "implications": "",
+      "source": {
+        "name": "UKRI ・ Trust and confidence in policing: Research & Innovation Consortium",
+        "title": "",
+        "url": "https://www.ukri.org/opportunity/trust-and-confidence-in-policing-research-innovation-consortium/",
+        "published_date": "",
+        "type": "other"
+      },
+      "related_research": []
+    },
+    {
+      "id": "20260910-03",
+      "title": "「警察に1 ポンド投資すると企業に10.7 ポンドの便益」英国研究",
+      "category": "研究",
+      "tags": [
+        "EBP",
+        "EBPM"
+      ],
+      "region": "international",
+      "summary": "英国Office of the Police Chief Scientific Adviser（OPCSA）が紹介する研究では、警察への1 ポンドの投資が地域 企業に約10.70 ポンドの経済便益をもたらすとの推計が示されています。また、警察活動を10%増やした場合、効果が 十分に現れた時点で年間約77 億ポンドの追加企業生産につながるとされています。別の公式紹介では、近隣犯罪が 10%増えると企業生産が約1%低下するとの関連も報告されています。",
+      "facts": [
+        "英国Office of the Police Chief Scientific Adviser（OPCSA）が紹介する研究では、警察への1 ポンドの投資が地域 企業に約10.70 ポンドの経済便益をもたらすとの推計が示されています。",
+        "また、警察活動を10%増やした場合、効果が 十分に現れた時点で年間約77 億ポンドの追加企業生産につながるとされています。",
+        "別の公式紹介では、近隣犯罪が 10%増えると企業生産が約1%低下するとの関連も報告されています。"
+      ],
+      "interpretation": "これは犯罪予防政策の「便益」の測り方を広げる研究です。犯罪件数だけで評価すると、企業活動、投資、地価・ 住宅価値、地域経済などへの波及を取りこぼし、費用対効果を過小評価する可能性があります。自治体EBPM では、警 察統計と地域経済指標・不動産価格・事業所動態を接続する発想が出てきます。",
+      "evidence": {
+        "level": "",
+        "description": "中程度。政策評価として興味深い一方、日本への外的妥当性は低く、推計値の移植は不適切です。"
+      },
+      "limitations": [
+        "10.7 倍という数字をそのまま日本へ持ち込むことはできません。",
+        "英国の犯罪構造、地域経済、警察制度、推 計モデルの仮定に依存します。",
+        "また「10%増」の対象について、公式資料間で policing / community policing という表 現差があるため、本稿では一次資料に合わせて一般的な「警察活動」と表現しています。"
+      ],
+      "implications": "",
+      "source": {
+        "name": "OPCSA ・ Policing and Economic Growth: Evidence of Value for Communities and Businesses 出典：National Police Chiefs ’ Council ・関連発表",
+        "title": "",
+        "url": "https://science.police.uk/news-and-events/resources/economic-growth/",
+        "published_date": "",
+        "type": "other"
+      },
+      "related_research": [
+        {
+          "title": "関連資料",
+          "url": "https://news.npcc.police.uk/releases/investment-in-policing-could-unlock-billions-for-local-businesses"
+        }
+      ]
+    },
+    {
+      "id": "20260910-04",
+      "title": "EBP を教えても、現場組織の構造が変わらなければ定着しない",
+      "category": "研究",
+      "tags": [
+        "EBP"
+      ],
+      "region": "international",
+      "summary": "2026 年8 月公開の英国警察研究「Tales from the frontline: professionalisation, evidence-based practice and response policing」は、イングランドの1 警察組織のresponse policing を対象に、解釈的マルチメソッドで専門職化 とEBP 実装を検討しています。研究は、構造的障壁や職業文化がEBP の定着を妨げ、既存職員をEBP にアップスキル する組織的能力・余力が不足していると報告しています。",
+      "facts": [
+        "2026 年8 月公開の英国警察研究「Tales from the frontline: professionalisation, evidence-based practice and response policing」は、イングランドの1 警察組織のresponse policing を対象に、解釈的マルチメソッドで専門職化 とEBP 実装を検討しています。",
+        "研究は、構造的障壁や職業文化がEBP の定着を妨げ、既存職員をEBP にアップスキル する組織的能力・余力が不足していると報告しています。"
+      ],
+      "interpretation": "EBP の障壁は「警察官が研究を知らない」だけではありません。研究を読む時間がない、試す裁量がない、データ がない、評価指標に入らない、といった組織条件が定着を左右し得ます。勉強会型の活動も、知識共有 → 小規模実験 → 成果提示 → 組織内手順への組込みまで進まなければ、「勉強した」で止まる危険があります。",
+      "evidence": {
+        "level": "",
+        "description": "中程度以下。単一組織を対象とする解釈的・マルチメソッド研究で、一般化には制約があります。ただ し、実装障壁を理解する質的エビデンスとしては有用です。"
+      },
+      "limitations": [],
+      "implications": "",
+      "source": {
+        "name": "Policing and Society ・原論文",
+        "title": "",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/10439463.2026.2711669",
+        "published_date": "",
+        "type": "research"
+      },
+      "related_research": []
+    },
+    {
+      "id": "20260910-05",
+      "title": "警察官の「悪者」という認知枠組みが判断を単純化する可能性",
+      "category": "研究",
+      "tags": [
+        "EBP"
+      ],
+      "region": "international",
+      "summary": "2026 年7 月15 日にオンライン公開された Journal of Research in Crime and Delinquency の研究は、米国の警察 官35 人へのインタビューを基に、「bad guy」という類型が複雑な道徳判断を単純化し、権限行使の正当化や高リスク 場面での迅速な判断を支える一方、その分類の不安定さを警察官自身も認識していると報告しています。研究内容は9 月9 日にも大学系ニュース等で紹介されました。",
+      "facts": [
+        "2026 年7 月15 日にオンライン公開された Journal of Research in Crime and Delinquency の研究は、米国の警察 官35 人へのインタビューを基に、「bad guy」という類型が複雑な道徳判断を単純化し、権限行使の正当化や高リスク 場面での迅速な判断を支える一方、その分類の不安定さを警察官自身も認識していると報告しています。",
+        "研究内容は9 月9 日にも大学系ニュース等で紹介されました。"
+      ],
+      "interpretation": "犯罪予防そのものより、警察官の意思決定バイアスという点で重要です。EBP は「何が効くか」だけでなく、誰に 介入するか、誰を疑うか、どの情報を重視するかという判断過程にも関係します。経験知が人物分類のショートカット になり得る、という仮説を考える材料になります。",
+      "evidence": {
+        "level": "",
+        "description": "低～中。35 人への質的インタビューであり、米国警察一般への一般化はできません。また、実際の職 務行動や誤認率を測定した研究でもありません。「警察官はこう判断する」と断定するのは過剰です。"
+      },
+      "limitations": [],
+      "implications": "",
+      "source": {
+        "name": "SAGE ・原論文 出典：Rutgers University–Newark ・研究紹介",
+        "title": "",
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/00224278261467302",
+        "published_date": "",
+        "type": "research"
+      },
+      "related_research": [
+        {
+          "title": "関連資料",
+          "url": "https://rscj.newark.rutgers.edu/news/some-police-officers-use-the-bad-guys-label-to-provide-moral-clarity/"
+        }
+      ]
+    }
+  ]
+}

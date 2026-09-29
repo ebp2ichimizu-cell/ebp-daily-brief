@@ -1,0 +1,111 @@
+{
+  "date": "2026-09-19",
+  "pdf_url": "https://drive.google.com/file/d/17mKg1zCgyCbZd7MWgwLLpUzavL13L26v/view?usp=drivesdk",
+  "articles": [
+    {
+      "id": "20260919-01",
+      "title": "CCTVは「置けば効く」ではない。地域条件で関連の強さが変わる",
+      "category": "AI・データ",
+      "tags": [
+        "海外比較",
+        "関連研究",
+        "研究課題"
+      ],
+      "region": "international",
+      "summary": "American Journal of Criminal Justiceに9月18日公開。Washington, D.C.の2018年犯罪データと警察運用CCTV位置データ等を、1/ 4マイルの重複する「egohood」単位で分析した観察研究。負の二項回帰では、CCTVの存在は暴力犯罪約4.5％、財産犯罪約 9.4％低い犯罪率と関連し、追加1台はそれぞれ約3.7％、8.2％低い犯罪率と関連した。商業活動の多い地域などで関連が強い 一方、高貧困地域の財産犯罪では関連がほぼ見られないパターンも示された。",
+      "facts": [
+        "American Journal of Criminal Justiceに9月18日公開。",
+        "Washington, D.C.の2018年犯罪データと警察運用CCTV位置データ等を、1/ 4マイルの重複する「egohood」単位で分析した観察研究。",
+        "負の二項回帰では、CCTVの存在は暴力犯罪約4.5％、財産犯罪約 9.4％低い犯罪率と関連し、追加1台はそれぞれ約3.7％、8.2％低い犯罪率と関連した。",
+        "商業活動の多い地域などで関連が強い 一方、高貧困地域の財産犯罪では関連がほぼ見られないパターンも示された。"
+      ],
+      "interpretation": "防犯カメラを市域一律に増設するより、土地利用、歩行者量、住宅安定性など「どこで追加効果が見込めるか」を事前に分 析する発想が重要。CPTED・日常活動理論とデータ配置を接続できる。",
+      "evidence": {
+        "level": "",
+        "description": "中程度以下。関連は明瞭だが因果推論は弱い"
+      },
+      "limitations": [
+        "設置前後比較やマッチングを伴わない横断的観察研究で、因果効果は証明できない。",
+        "著者も縦断・準実験研究が必要と明記。",
+        "2018年の単一都市データで、日本への一般化もできない。"
+      ],
+      "implications": "",
+      "source": {
+        "name": "PDF掲載原典",
+        "title": "",
+        "url": "https://link.springer.com/article/10.1007/s12103-026-09936-w",
+        "published_date": "",
+        "type": "other"
+      },
+      "related_research": []
+    },
+    {
+      "id": "20260919-02",
+      "title": "英国、230超のナイフ犯罪集中地区へ重点介入を拡大。23％減は「施策効果」と断定不可",
+      "category": "AI・データ",
+      "tags": [
+        "海外比較",
+        "実務実装"
+      ],
+      "region": "international",
+      "summary": "英Home Officeは9月18日、27警察管区の230超の高リスク地区へ、重点パトロール、CCTV、若者への早期予防、照明・環境 改善を組み合わせる対策を拡大すると公表。先行する7警察管区では2024年6月以降、knife-enabled robberyが23％、3,600件超減少したと報告している。",
+      "facts": [
+        "英Home Officeは9月18日、27警察管区の230超の高リスク地区へ、重点パトロール、CCTV、若者への早期予防、照明・環境 改善を組み合わせる対策を拡大すると公表。",
+        "先行する7警察管区では2024年6月以降、knife-enabled robberyが23％、3,600件超減少したと報告している。"
+      ],
+      "interpretation": "ホットスポット・ポリシングだけでなく、若者支援と環境改善を同じ小地域に束ねる点が重要。日本で繁華街や少年関連暴 力へ応用するなら、介入地点を事前に限定し、パトロール量、環境変更、支援接続を別々に記録する必要がある。",
+      "evidence": {
+        "level": "",
+        "description": "実装情報として中程度／今回の23％を因果効果として評価するのは困難"
+      },
+      "limitations": [
+        "政府発表の23％減は、同時期の対照地域を用いた因果推論ではない。",
+        "全国的な犯罪トレンド、他施策、回帰効果等を排除で きず、「このパッケージが23％減らした」とは言えない。"
+      ],
+      "implications": "",
+      "source": {
+        "name": "PDF掲載原典",
+        "title": "",
+        "url": "https://www.gov.uk/government/news/government-expands-crackdown-on-knife-crime",
+        "published_date": "",
+        "type": "other"
+      },
+      "related_research": []
+    },
+    {
+      "id": "20260919-03",
+      "title": "少年犯罪予防を警察・教育・福祉の地域統合へ。英国が権限移譲を検討",
+      "category": "警察実務",
+      "tags": [
+        "海外比較",
+        "実務実装",
+        "研究課題"
+      ],
+      "region": "international",
+      "summary": "英国政府は9月17日、司法・警察・子ども福祉・教育の実務家を集め、若者を犯罪へ引き込むリスクの早期把握と地域レベ ルでのサービス統合を検討した。Youth Justice Devolutionの専門顧問を任命し、地域当局が資源を束ね、重複を減らし、説明責任を強める制度設計を検討する。Young Futures Panelsは2025年10月までに53か所、2026/27年度にさらに12か所が稼働している。",
+      "facts": [
+        "英国政府は9月17日、司法・警察・子ども福祉・教育の実務家を集め、若者を犯罪へ引き込むリスクの早期把握と地域レベ ルでのサービス統合を検討した。",
+        "Youth Justice Devolutionの専門顧問を任命し、地域当局が資源を束ね、重複を減らし、説明責任を強める制度設計を検討する。",
+        "Young Futures Panelsは2025年10月までに53か所、2026/27年度にさらに12か所が稼働している。"
+      ],
+      "interpretation": "日本でも少年非行・被害予防を警察単独の「声かけ・啓発」から切り離し、学校、児童福祉、自治体、警察のデータと介入 を地域単位で接続する発想は参考になる。重要なのは連携会議の数ではなく、早期把握から支援接続、再非行・被害までを 共通アウトカムで追うこと。",
+      "evidence": {
+        "level": "",
+        "description": "実装設計として中程度／犯罪予防効果は評価困難"
+      },
+      "limitations": [
+        "制度改革・実装段階であり、権限移譲やYoung Futures Panelsが犯罪を減らしたという効果検証ではない。",
+        "地域統合は調整コストや責任所在の曖昧化も生み得る。"
+      ],
+      "implications": "",
+      "source": {
+        "name": "PDF掲載原典",
+        "title": "",
+        "url": "https://www.gov.uk/government/news/ministers-bring-together-leaders-to-rewire-youth-crime-prevention",
+        "published_date": "",
+        "type": "other"
+      },
+      "related_research": []
+    }
+  ]
+}

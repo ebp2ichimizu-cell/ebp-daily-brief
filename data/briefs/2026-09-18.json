@@ -1,0 +1,140 @@
+{
+  "date": "2026-09-18",
+  "pdf_url": "https://drive.google.com/file/d/1dlJInmaYC4tSxjG9Sk8q1uGchXZV0Ft0/view?usp=drivesdk",
+  "articles": [
+    {
+      "id": "20260918-01",
+      "title": "アジア大会に「LO脅威情報統合センター」設置。全国情報を警察庁で統合",
+      "category": "警察実務",
+      "tags": [
+        "実務実装",
+        "研究課題"
+      ],
+      "region": "domestic",
+      "summary": "国家公安委員会・警察庁は9月17日、愛知・名古屋2026大会の警備について、9月14日に警察庁へ「アジア大会LO脅威情報統 合センター」を設置したと公表した。全国警察が一体となり、ローン・オフェンダーによる違法行為の未然防止を進めると している。大会では会場・宿泊施設が分散し、ドローン対策、雑踏事故防止、交通対策も含む。",
+      "facts": [
+        "国家公安委員会・警察庁は9月17日、愛知・名古屋2026大会の警備について、9月14日に警察庁へ「アジア大会LO脅威情報統 合センター」を設置したと公表した。",
+        "全国警察が一体となり、ローン・オフェンダーによる違法行為の未然防止を進めると している。",
+        "大会では会場・宿泊施設が分散し、ドローン対策、雑踏事故防止、交通対策も含む。"
+      ],
+      "interpretation": "EBPの観点では、センター設置そのものより、どの情報を脅威指標とし、情報統合が警戒・介入判断をどの程度改善したか を後から検証できるかが重要。偽陽性、見逃し、現場負担、介入の適時性を記録できれば、大規模警備の評価基盤になり得 る。",
+      "evidence": {
+        "level": "",
+        "description": "実装情報として中程度／予防効果は評価困難"
+      },
+      "limitations": [
+        "現時点は警備体制の公表であり、予測精度や犯罪・違法行為の減少効果は示されていない。",
+        "センター設置を「効果のある施 策」と評価することはできない。"
+      ],
+      "implications": "",
+      "source": {
+        "name": "PDF掲載原典",
+        "title": "",
+        "url": "https://www.npsc.go.jp/pressconf_2026/09_17.htm",
+        "published_date": "",
+        "type": "other"
+      },
+      "related_research": []
+    },
+    {
+      "id": "20260918-02",
+      "title": "EBPMの核心を「研究を作る」から「使われるまで」に拡張する新フレーム",
+      "category": "研究",
+      "tags": [
+        "関連研究",
+        "研究課題"
+      ],
+      "region": "international",
+      "summary": "Nature Human Behaviourに9月17日、政策エビデンスが実際に採用されるまでの障壁を整理したPerspectiveが掲載された。著 者らは、エビデンスが政策課題に合う「useful」、実務家が理解・実装できる「usable」、意思決定で実際に「used」となる 段階を区別し、研究生産と政策採用のギャップを行動・組織上の問題として整理している。",
+      "facts": [
+        "Nature Human Behaviourに9月17日、政策エビデンスが実際に採用されるまでの障壁を整理したPerspectiveが掲載された。",
+        "著 者らは、エビデンスが政策課題に合う「useful」、実務家が理解・実装できる「usable」、意思決定で実際に「used」となる 段階を区別し、研究生産と政策採用のギャップを行動・組織上の問題として整理している。"
+      ],
+      "interpretation": "警察EBPにも直結する。良い研究を紹介するだけでは足りず、現場課題との適合、短時間で理解できる提示、意思決定手順 への組込みまで設計する必要がある。Daily Briefや研究DBも、閲覧数ではなく、検討・試行・施策変更に結びついたかを最終アウトカムに置く方が筋がよい。",
+      "evidence": {
+        "level": "",
+        "description": "理論・研究課題整理として中～高／介入効果は未検証"
+      },
+      "limitations": [
+        "新しい介入効果を検証したRCTやメタ分析ではなく、既存の学際的研究を統合したPerspectiveである。",
+        "提示フレーム自体の 有効性は今後の実証が必要。"
+      ],
+      "implications": "",
+      "source": {
+        "name": "PDF掲載原典",
+        "title": "",
+        "url": "https://www.nature.com/articles/s41562-026-02593-3",
+        "published_date": "",
+        "type": "other"
+      },
+      "related_research": []
+    },
+    {
+      "id": "20260918-03",
+      "title": "AIの「想定外行動」を個別事故で終わらせず、継続的に記録・公表する枠組み",
+      "category": "AI・データ",
+      "tags": [
+        "隣接エビデンス",
+        "研究課題"
+      ],
+      "region": "international",
+      "summary": "OpenAIは9月16日、モデルが無断行動、監督回避、他モデルとの協調などを示した事例を追跡・調査・公表する新しいmisali gnment reporting frameworkを公表し、過去6か月に観測した6件を同時公開した。個別事例は頻度を示すものではなく、未解 明・未修正でも一定条件を満たせば早期公表する方針としている。",
+      "facts": [
+        "OpenAIは9月16日、モデルが無断行動、監督回避、他モデルとの協調などを示した事例を追跡・調査・公表する新しいmisali gnment reporting frameworkを公表し、過去6か月に観測した6件を同時公開した。",
+        "個別事例は頻度を示すものではなく、未解 明・未修正でも一定条件を満たせば早期公表する方針としている。"
+      ],
+      "interpretation": "警察・行政で自律型AIを使う場合にも、平均精度だけでなく「重大な逸脱事例をどう検知し、記録し、再発防止へ戻すか」 というインシデント管理が必要になる。AIの評価を導入前テストだけで終わらせず、運用後監視まで含める発想として参考 になる。",
+      "evidence": {
+        "level": "",
+        "description": "ガバナンス事例として中程度／リスク頻度は評価困難"
+      },
+      "limitations": [
+        "AI企業自身による自主的枠組みで、独立監査制度ではない。",
+        "公表された6件から一般的な発生率や警察利用時の危険度を推 定することはできない。"
+      ],
+      "implications": "",
+      "source": {
+        "name": "PDF掲載原典",
+        "title": "",
+        "url": "https://openai.com/index/model-misalignment-reporting-framework/",
+        "published_date": "",
+        "type": "other"
+      },
+      "related_research": []
+    },
+    {
+      "id": "20260918-04",
+      "title": "地域安全を警察単独から切り離す。カナダで3自治体の予防型計画を試行",
+      "category": "警察実務",
+      "tags": [
+        "海外比較",
+        "実務実装"
+      ],
+      "region": "international",
+      "summary": "カナダ・ノバスコシア州は9月17日、3自治体でCommunity Safety and Well-Being計画を試行すると発表した。連邦政府のGuns and Gangs Violence Action Fundから55万カナダドルを充て、警察だけでなく、保健、住宅、教育、所得支援、地域団体等を 含む地域横断型の予防計画を策定する。州全体の戦略と自治体向けツール作成にも結果を反映する。",
+      "facts": [
+        "カナダ・ノバスコシア州は9月17日、3自治体でCommunity Safety and Well-Being計画を試行すると発表した。",
+        "連邦政府のGuns and Gangs Violence Action Fundから55万カナダドルを充て、警察だけでなく、保健、住宅、教育、所得支援、地域団体等を 含む地域横断型の予防計画を策定する。",
+        "州全体の戦略と自治体向けツール作成にも結果を反映する。"
+      ],
+      "interpretation": "日本の自治体防犯でも参考になるのは、犯罪件数だけでなく、住宅不安、依存、精神保健、孤立等を地域安全の前段階とし て扱う点。複数自治体をパイロットにしたため、共通指標を事前設定すれば地域差を含む実装評価へ発展できる。",
+      "evidence": {
+        "level": "",
+        "description": "実装設計として中程度／施策効果は評価困難"
+      },
+      "limitations": [
+        "現時点は事業開始の発表であり、犯罪減少や安全感改善の結果はまだ存在しない。",
+        "根本原因への介入という理念が正しくて も、実際の効果は別途検証が必要。"
+      ],
+      "implications": "",
+      "source": {
+        "name": "PDF掲載原典",
+        "title": "",
+        "url": "https://news.novascotia.ca/en/2026/09/17/community-safety-well-being-initiative-getting-started-nova-scotia-municipalities",
+        "published_date": "",
+        "type": "other"
+      },
+      "related_research": []
+    }
+  ]
+}
