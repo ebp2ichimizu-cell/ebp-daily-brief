@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-29",
+  "pdf_folder_url": "https://drive.google.com/drive/folders/17L-6pARPBwcP827R2pij6D_AI55DQM3R",
+  "pdf_url": "https://drive.google.com/drive/folders/17L-6pARPBwcP827R2pij6D_AI55DQM3R",
+  "articles": [
+    {
+      "id": "20260929-01",
+      "title": "サンプル：公的機関による犯罪予防施策の新資料",
+      "category": "警察実務",
+      "tags": [
+        "犯罪予防",
+        "EBP",
+        "警察実務"
+      ],
+      "region": "domestic",
+      "summary": "GitHub版での表示確認用サンプルです。実運用時には当日の記事データに置き換えてください。",
+      "facts": [
+        "一次資料が公表された。",
+        "施策内容と評価方法が記載されている。"
+      ],
+      "interpretation": "施策の紹介と効果検証の結果は分けて読む必要があります。",
+      "evidence": {
+        "level": "moderate",
+        "description": "評価デザインや比較対象の有無を確認した上で判断します。"
+      },
+      "limitations": [
+        "サンプル記事のため実在する施策を評価していません。"
+      ],
+      "implications": "原典へ直接移動できる導線をWeb版にも設けます。",
+      "source": {
+        "name": "公的機関（サンプル）",
+        "title": "資料タイトル（サンプル）",
+        "url": "https://example.com/",
+        "published_date": "2026-09-29",
+        "type": "government"
+      },
+      "related_research": []
+    },
+    {
+      "id": "20260929-02",
+      "title": "サンプル：海外のEBP研究",
+      "category": "研究",
+      "tags": [
+        "EBP",
+        "効果検証"
+      ],
+      "region": "international",
+      "summary": "海外研究の表示確認用サンプルです。",
+      "facts": [
+        "査読研究として公表された。"
+      ],
+      "interpretation": "日本への適用可能性は文脈差を確認する必要があります。",
+      "evidence": {
+        "level": "moderate",
+        "description": "研究デザインに基づきエビデンスの確実性を説明します。"
+      },
+      "limitations": [
+        "制度・警察活動・地域条件が日本と異なる可能性があります。"
+      ],
+      "implications": "海外研究は国内実務へ直接一般化せず、比較材料として扱います。",
+      "source": {
+        "name": "Journal (sample)",
+        "title": "Article title (sample)",
+        "url": "https://example.org/",
+        "published_date": "2026-09-28",
+        "type": "research"
+      },
+      "related_research": []
+    }
+  ]
+}
