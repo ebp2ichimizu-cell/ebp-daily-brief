@@ -1,0 +1,127 @@
+{
+  "date": "2026-09-30",
+  "pdf_url": "https://drive.google.com/file/d/1npr-GAR_avT7Ifi6LWezKbqOkuc8SSKj/view?usp=drivesdk",
+  "articles": [
+    {
+      "id": "20260930-01",
+      "title": "AIによるボディカメラ全量解析をRCTで検証―警察官の活動・職務行動に明確な変化は確認されず",
+      "category": "AI・データ",
+      "tags": [
+        "新規収録候補",
+        "海外比較",
+        "実務実装",
+        "BWC",
+        "AI",
+        "RCT"
+      ],
+      "region": "international",
+      "summary": "Arizona Department of Public Safetyのハイウェイパトロールを対象に、AI型BWC解析プラットフォームTruleoを6か月のRCTで検証した。停止、違反告知、逮捕、実力行使、苦情など主要アウトカムでは、多重比較補正後に明確な介入効果は確認されなかった。",
+      "facts": [
+        "Crime Scienceに9月29日、Arizona Department of Public Safetyのハイウェイパトロールを対象としたAI型BWC解析プラットフォームTruleoのランダム化比較試験が公開された。",
+        "2段階の6か月RCTで計314人（介入155、対照159）を分析した。",
+        "停止、違反告知、逮捕、実力行使、苦情について、多重比較補正後に有意な介入効果は確認されなかった。",
+        "AIが164,383件のBWC記録に付与した「High Professionalism」も介入群で約1ポイント高い方向だったが、統計的に有意ではなかった。"
+      ],
+      "interpretation": "AIが映像を大量レビューできることと、警察官の現場行動を改善できることは別である。導入評価では処理件数だけでなく、行動変化、苦情、実力行使、手続的公正などのアウトカムを対照群と比較する必要がある。少なくともこの組織・期間では、「AI監督が行動を改善する」「監視により活動が萎縮する」という双方の仮説を支持する結果ではなかった。",
+      "evidence": {
+        "level": "high-rct",
+        "description": "RCTとして高い。ただし、一般化可能性とAI独自のProfessionalism指標の妥当性には留保がある。"
+      },
+      "limitations": [
+        "活動アウトカムは警察官単位の集計で、314人では小～中程度の効果を検出する検出力が不足した可能性がある。",
+        "苦情・実力行使は稀なアウトカムである。",
+        "TruleoのProfessionalism指標自体は独立検証されていない。",
+        "交通警察中心の州警察であり、都市部パトロール等へそのまま一般化できない。"
+      ],
+      "implications": "AI導入の成果指標を「処理した映像量」に置かず、警察官行動や市民対応など最終アウトカムまで含めて比較評価することが重要。",
+      "source": {
+        "name": "Crime Science",
+        "title": "Does AI Generate a Civilizing or De-policing Effect? Testing the Impact of AI-Based Body Worn Camera Analytics in a Large State Police Agency",
+        "url": "https://link.springer.com/article/10.1186/s40163-026-00293-x",
+        "published_date": "2026-09-29",
+        "type": "research"
+      },
+      "related_research": []
+    },
+    {
+      "id": "20260930-02",
+      "title": "街路単位の犯罪軌跡を12都市・約29.7万街路で比較―「大都市の知見を小都市へそのまま移すな」",
+      "category": "研究",
+      "tags": [
+        "新規収録候補",
+        "海外比較",
+        "関連研究",
+        "ホットスポット",
+        "crime and place"
+      ],
+      "region": "international",
+      "summary": "米国12都市・297,199街路区間の2010～2018年の犯罪記録を比較した縦断研究。犯罪軌跡と地域構造の関連は都市規模などで異なり、大都市で得られたリスク要因を小都市へそのまま一般化できないことを示した。",
+      "facts": [
+        "American Journal of Criminal Justiceに9月29日、米国12都市・297,199街路区間の2010～2018年の公式犯罪記録を用いた縦断研究が公開された。",
+        "group-based trajectory modelingで暴力犯罪・財産犯罪を各5軌跡に分類した。",
+        "暴力犯罪では54.4%がcrime-free、33.4%がlow stableで、高水準軌跡は少数だった。",
+        "集中的不利と高犯罪軌跡の関連は中・大都市で強い一方、小都市では弱く、財産犯罪では関連方向が逆転した。",
+        "居住安定性の保護的関連は小都市で特に強かった。"
+      ],
+      "interpretation": "ホットスポットや地域特性を使う施策では、「同じ変数ならどの都市でも同じ意味」と仮定しないことが重要である。大都市で作られたリスクモデルや施策選定ルールを地方都市へ移す場合、都市規模、人口増減、地域安定性などの文脈比較を先に行う必要がある。日本でも大都市圏の研究結果を地方中小都市へ適用する際の外的妥当性を検討する根拠になる。",
+      "evidence": {
+        "level": "moderate-high",
+        "description": "大規模縦断・複数都市比較として中～高。ただし観察研究であり、因果推論には用いられない。"
+      },
+      "limitations": [
+        "観察研究であり、集中的不利や居住安定性が犯罪を因果的に増減させたとは言えない。",
+        "対象は米国12都市で、2010～2018年の警察認知犯罪に依存する。",
+        "都市選定は文脈差を確保する層化抽出であり、全米都市の代表標本ではない。",
+        "軌跡分類にはモデル依存性がある。"
+      ],
+      "implications": "地域リスクモデルやホットスポット施策を他地域へ移植する際は、都市規模や人口動態などの文脈差を比較し、現地データで再検証する必要がある。",
+      "source": {
+        "name": "American Journal of Criminal Justice",
+        "title": "Micro-Level Crime Trajectories Across Urban Contexts: A Multi-City Longitudinal Study in the U.S.",
+        "url": "https://link.springer.com/article/10.1007/s12103-026-09952-w",
+        "published_date": "2026-09-29",
+        "type": "research"
+      },
+      "related_research": []
+    },
+    {
+      "id": "20260930-03",
+      "title": "ロンドン鉄道駅の顔認証試行、50万人超走査・32万ポンドで直接逮捕ゼロ―精度より「配置・対象・費用対効果」が問題",
+      "category": "AI・データ",
+      "tags": [
+        "海外比較",
+        "実務実装",
+        "研究課題",
+        "顔認証",
+        "LFR"
+      ],
+      "region": "international",
+      "summary": "British Transport Policeがロンドンの鉄道駅で行ったLFR試行では、18回の配置で50万人超を走査したが、watchlistアラートは誤一致1件、LFRアラートからの直接逮捕はゼロだった。実装評価では技術精度だけでなく、対象者が通過する確率、配置、警察時間、費用まで見る必要がある。",
+      "facts": [
+        "British Transport Policeが2～7月にロンドンの鉄道駅で行ったLFR試行について、情報公開請求で運用実績が明らかになった。",
+        "18回の配置で50万人超の顔を走査し、機器レンタル・警察人員費は320,786ポンドだった。",
+        "watchlistへのアラートは1件だけで誤一致、LFRアラートからの逮捕はゼロだった。",
+        "BTPは試行中に暴行・窃盗等で関連逮捕があったとするが、LFRアラートに直接起因しなかったためLFR性能データには含めていない。"
+      ],
+      "interpretation": "顔認証評価ではfalse positive rateだけでは足りない。対象者が実際に通過する確率、watchlist構成、配置場所・時間、1件の有効検出に必要な走査数・警察時間・費用まで含めた運用評価が必要である。技術が一定精度で動いても、対象が現場に現れなければ実務上の便益は生まれない。",
+      "evidence": {
+        "level": "moderate-implementation",
+        "description": "実装・費用データとして中程度。犯罪予防効果と技術一般の有効性は評価困難。"
+      },
+      "limitations": [
+        "情報公開で判明した2～7月の初期試行データである。",
+        "BTPは8月以降、地下鉄駅へ拡大し、配置方法やwatchlistを改善しているため、初期試行だけでLFR一般の無効性は判断できない。",
+        "犯罪抑止効果や副次的な警察活動への影響はこのデータでは測定されていない。"
+      ],
+      "implications": "顔認証の実証では、誤一致率だけでなく、watchlist対象者の遭遇率、配置地点・時間、警察官投入時間、費用、直接的な検挙成果まで一体で評価する必要がある。",
+      "source": {
+        "name": "Liberty Investigates",
+        "title": "Trial of live facial recognition in London stations ends with a false positive and no arrests",
+        "url": "https://libertyinvestigates.org.uk/articles/live-facial-recognition-btp-trial-london-stations/",
+        "published_date": "2026-09-29",
+        "type": "other"
+      },
+      "related_research": []
+    }
+  ]
+}
