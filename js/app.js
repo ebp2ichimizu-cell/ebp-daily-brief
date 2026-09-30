@@ -32,7 +32,7 @@ function articleHtml(a, expanded=false){
     `<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></li>`
   ).join("");
   return `
-    <article class="article-card">
+    <article class="article-card" data-article-id="${esc(a.id||"")}">
       <h3 class="article-title">${esc(a.title)}</h3>
       <div class="meta">${badge(region)}${tags}</div>
       <p class="summary">${esc(a.summary||"")}</p>
@@ -52,6 +52,45 @@ function articleHtml(a, expanded=false){
     </article>`;
 }
 
+function requestedArticleId(){
+  const params = new URLSearchParams(window.location.search);
+  return (params.get("article") || "").trim();
+}
+
+function renderRequestedArticle(){
+  const id = requestedArticleId();
+
+  if(!id){
+    return false;
+  }
+
+  const row = allBriefs
+    .flatMap(b => b.articles.map(a => ({date:b.date,a})))
+    .find(x => String(x.a.id||"") === id);
+
+  const count = document.getElementById("searchCount");
+  const results = document.getElementById("searchResults");
+
+  if(!row){
+    count.textContent = "指定された記事が見つかりませんでした。";
+    results.innerHTML = "";
+    return true;
+  }
+
+  count.textContent = `${jpDate(row.date)}の記事`;
+  results.innerHTML =
+    `<p class="muted">${jpDate(row.date)}</p>${articleHtml(row.a,true)}`;
+
+  window.setTimeout(() => {
+    results.scrollIntoView({
+      behavior:"smooth",
+      block:"start"
+    });
+  }, 80);
+
+  return true;
+}
+
 async function init(){
   try{
     const idx = await loadJson(INDEX_URL);
@@ -64,7 +103,10 @@ async function init(){
     renderTags();
     renderArchive();
     bindSearch();
-    runSearch();
+
+    if(!renderRequestedArticle()){
+      runSearch();
+    }
   }catch(err){
     document.getElementById("latestBrief").innerHTML = `<p>データを読み込めませんでした。</p>`;
     console.error(err);
@@ -148,7 +190,7 @@ function renderArchive(){
         <details class="archive-day">
           <summary>${jpDate(b.date)}　${b.articles.length}件</summary>
           <ol class="archive-list">
-            ${b.articles.map(a=>`<li><a href="#${esc(a.id)}" data-article-id="${esc(a.id)}">${esc(a.title)}</a></li>`).join("")}
+            ${b.articles.map(a=>`<li><a href="?article=${encodeURIComponent(a.id)}" data-article-id="${esc(a.id)}">${esc(a.title)}</a></li>`).join("")}
           </ol>
           ${b.pdf_url ? `<p><a class="text-link" href="${esc(b.pdf_url)}" target="_blank" rel="noopener">この日のPDF版を開く</a></p>`:""}
         </details>`).join("")}
@@ -162,9 +204,17 @@ function renderArchive(){
     const id=link.dataset.articleId;
     const row=allBriefs.flatMap(b=>b.articles.map(a=>({date:b.date,a}))).find(x=>x.a.id===id);
     if(row){
-      document.getElementById("searchInput").value=row.a.title;
-      runSearch();
-      document.getElementById("searchResults").scrollIntoView({behavior:"smooth",block:"start"});
+      const url = new URL(window.location.href);
+      url.searchParams.set("article", id);
+      window.history.replaceState({}, "", url);
+
+      document.getElementById("searchInput").value="";
+      document.getElementById("regionFilter").value="";
+      document.getElementById("sourceTypeFilter").value="";
+      selectedTag="";
+      document.querySelectorAll(".tag-button").forEach(x=>x.classList.remove("active"));
+
+      renderRequestedArticle();
     }
   });
 }
