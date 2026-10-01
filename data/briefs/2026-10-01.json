@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-01",
+  "pdf_url": "https://drive.google.com/file/d/1ry1M8qEpiYzIiN7-ksLM_Lzlp7vYNkLR/view?usp=drivesdk",
+  "articles": [
+    {
+      "id": "20261001-01",
+      "title": "EU基本権機関、警察の遠隔生体認証を7か国で実地調査―導入前の法的根拠・独立監督・影響評価を要求",
+      "category": "AI・データ",
+      "tags": [
+        "海外比較",
+        "実務実装",
+        "研究課題",
+        "生体認証",
+        "AIガバナンス"
+      ],
+      "region": "international",
+      "summary": "EU基本権機関（FRA）が、警察による遠隔生体認証（RBI）について7か国の実務を調査。技術精度だけでなく、明確な利用目的、平和的集会参加者の識別制限、独立監督、基本権影響評価、利用状況の公開を導入前から整える必要性を示した。",
+      "facts": [
+        "FRAは9月30日、警察による遠隔生体認証（RBI）の報告書を公表した。",
+        "法的分析に加え、フランス、ドイツ、ギリシャ、ハンガリー、アイルランド、イタリア、オランダの警察・専門家へのインタビュー、警察実務の非参与観察、公開空間での限定的な市民調査を用いた。",
+        "現状ではリアルタイムより録画済み映像・音声での利用が中心だった。",
+        "FRAは明確な利用目的、平和的集会参加者の識別制限、独立監督、基本権影響評価を導入前に整えるべきだとした。"
+      ],
+      "interpretation": "顔認証・声紋認証の評価を「一致精度」だけに限定しない点が重要である。警察実装では、技術精度に加え、watchlist作成、利用目的、誤一致後の人間判断、目的外利用、監督、公開報告までを実装指標として扱う必要がある。AIガバナンス自体を評価可能な対象とする視点を提供する。",
+      "evidence": {
+        "level": "moderate-high-implementation",
+        "description": "実装・ガバナンス研究として中～高。犯罪予防効果は評価対象外。"
+      },
+      "limitations": [
+        "効果研究ではなく、法制度・実装・基本権に関する混合的調査である。",
+        "市民調査は限定的で、報告中の割合をEU全体の代表値として扱うべきではない。",
+        "RBIが犯罪検挙や予防をどの程度改善するか、規制が成果へどう影響するかは本報告から因果推定できない。"
+      ],
+      "implications": "生体認証の導入評価では、精度に加えて利用目的、watchlist、誤一致後の判断、監督、影響評価、公開報告までを評価枠に含める必要がある。",
+      "source": {
+        "name": "European Union Agency for Fundamental Rights (FRA)",
+        "title": "Remote biometric identification in law enforcement",
+        "url": "https://fra.europa.eu/en/publication/2026/remote-biometric-identification-law-enforcement-purposes",
+        "published_date": "2026-09-30",
+        "type": "official"
+      },
+      "related_research": []
+    },
+    {
+      "id": "20261001-02",
+      "title": "サンフランシスコの「口実的交通停止」制限―停止・捜索・実力行使は減少、犯罪も悪化せず。ただし因果効果は未証明",
+      "category": "研究",
+      "tags": [
+        "海外比較",
+        "関連研究",
+        "研究課題",
+        "交通停止",
+        "警察活動"
+      ],
+      "region": "international",
+      "summary": "サンフランシスコで2024年7月に導入された低危険度の交通違反を理由とする停止制限の初期評価。制限対象の停止、捜索、実力行使は減少し、武器押収総数は変化せず、犯罪も低下傾向だったが、対照都市を用いた因果評価ではない。",
+      "facts": [
+        "Center for Policing EquityとSan Francisco Public Defender's Officeは9月30日、2024年7月に導入された低危険度の交通違反を理由とする停止制限の初期評価を公表した。",
+        "SFPDの2018～2025年データを分析し、制限対象の停止は2023年の全停止の13%から、2024年後半6.2%、2025年5.2%へ低下した。",
+        "制限前、裁量的捜索は口実的停止で10.7%、その他で3.6%、実力行使は0.6%対0.3%だった。",
+        "政策後は捜索・実力行使が減少し、武器押収総数は変化せず、犯罪も低下傾向だった。"
+      ],
+      "interpretation": "警察活動の削減が必ずしも公共安全の悪化を意味しない可能性を示す。評価軸を停止件数の最大化ではなく、低収益・高harmの接触を減らし、交通安全に直結する違反へ資源を移すことに置く発想である。日本でも職務質問・交通指導等を評価する際、件数だけでなく発見率、副作用、実力行使、住民負担を併せて測る視点につながる。",
+      "evidence": {
+        "level": "moderate-implementation",
+        "description": "長期行政データを用いた初期実装評価として中程度。因果効果は低～中。"
+      },
+      "limitations": [
+        "報告書自身が因果関係の確立は範囲外と明記している。",
+        "政策前から口実的停止は減少しており、同時期の犯罪低下も政策によるものとは言えない。",
+        "対照都市を用いた差の差等ではなく、主に時系列記述と24人の目的抽出インタビューである。",
+        "代替的にLocal Ordinance Violationsへ分類が移った可能性も指摘されている。"
+      ],
+      "implications": "警察活動を評価する際、活動件数だけでなく発見率、公共安全、実力行使などのharm、住民負担を同じ評価枠で測る必要がある。",
+      "source": {
+        "name": "Center for Policing Equity / San Francisco Public Defender's Office",
+        "title": "Evaluation of San Francisco's pretextual traffic stop restrictions",
+        "url": "https://policingequity.org/wp-content/uploads/2026/09/CPE_Digital_SFPDO_Report__FINAL.pdf",
+        "published_date": "2026-09-30",
+        "type": "report"
+      },
+      "related_research": []
+    },
+    {
+      "id": "20261001-03",
+      "title": "欧州警察長官会議、AI・詐欺対策を主要議題に―「犯罪はdigital by default、警察協力はconnected by design」",
+      "category": "政策・実務",
+      "tags": [
+        "海外比較",
+        "実務実装",
+        "AI",
+        "詐欺対策",
+        "Europol"
+      ],
+      "region": "international",
+      "summary": "EuropolのEuropean Police Chiefs Convention 2026では、警察でのAI、データへの合法的アクセス、偽情報、過激化予防などを協議。オンライン詐欺では、銀行・警察・SNS・通信事業者が送金前に詐欺を識別・阻止する部門横断連携が強調された。",
+      "facts": [
+        "Europolは9月30日、28～30日に開催したEuropean Police Chiefs Convention 2026の概要を公表した。",
+        "59か国・15国際機関から500人超が参加し、警察でのAI、データへの合法的アクセス、偽情報、過激化予防等を協議した。",
+        "オンライン詐欺について、銀行・警察・SNS・通信事業者が送金前に詐欺を識別・阻止する部門横断連携の必要性が強調された。"
+      ],
+      "interpretation": "特殊詐欺対策では「被害者へ注意喚起する」だけでなく、送金前の複数主体による検知・遮断へ介入点を前倒しする方向が重要である。評価するなら、警告件数ではなく、検知→連携→保留・遮断→被害回避までのファネルと、誤検知・処理時間を測る必要がある。",
+      "evidence": {
+        "level": "low-effect-moderate-policy",
+        "description": "国際警察政策の方向性として中程度。施策効果エビデンスとして低い。"
+      },
+      "limitations": [
+        "会議概要であり、個別対策の効果検証ではない。",
+        "AIや部門横断連携が詐欺被害を何％減らすかを示すデータは公表されていない。",
+        "政策方向の把握には有用だが、施策効果のエビデンスとしては低い。"
+      ],
+      "implications": "特殊詐欺対策では、啓発件数ではなく、検知から連携、保留・遮断、被害回避までのプロセスと誤検知・処理時間を評価する設計が必要。",
+      "source": {
+        "name": "Europol",
+        "title": "EU law enforcement chiefs gather to discuss new challenges in EU security",
+        "url": "https://www.europol.europa.eu/media-press/newsroom/news/eu-law-enforcement-chiefs-gather-to-discuss-new-challenges-in-eu-security",
+        "published_date": "2026-09-30",
+        "type": "official"
+      },
+      "related_research": []
+    }
+  ]
+}
