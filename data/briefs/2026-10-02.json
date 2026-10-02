@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-02",
+  "pdf_url": "https://drive.google.com/file/d/17il9M0fjp1PWlaZ1s3i_fkFAa0Zuhi_l/view?usp=drivesdk",
+  "articles": [
+    {
+      "id": "20261002-01",
+      "title": "College of Policingがホットスポット・ポリシングのToolkitを更新―「犯罪減少」は維持、経済コストの根拠はなお空白",
+      "category": "研究",
+      "tags": [
+        "既存研究の後続",
+        "海外比較",
+        "ホットスポット",
+        "EMMIE"
+      ],
+      "region": "international",
+      "summary": "英国College of Policingが9月30日にCrime Reduction ToolkitのHot spots policing項目を更新。効果はOverall reductionと評価され、Effectのエビデンス品質はVery strongだが、ImplementationはLow、Economic costはエビデンス品質情報がない。",
+      "facts": [
+        "College of PolicingのCrime Reduction Toolkitで、Hot spots policingの項目が2026年9月30日に更新された。",
+        "現行の効果判定は「Overall reduction」。",
+        "エビデンス品質はEffect：Very strong、Mechanism：Moderate、Moderators：Very strong、Implementation：Low。",
+        "Economic costには効果のエビデンス品質情報がない。"
+      ],
+      "interpretation": "日本でホットスポット施策を設計するとき、「効くか」だけでなく、どこで効くか、どう実装するか、費用に見合うかを分けて確認する必要がある。実装の根拠がEffectより弱く、費用情報が欠けることはEBPM上の注意点になる。",
+      "evidence": {
+        "level": "high-effect-low-implementation",
+        "description": "効果の統合エビデンスは高い。実装は低く、経済コストは評価困難。"
+      },
+      "limitations": [
+        "Toolkitは複数研究を統合した二次資料である。",
+        "今回の更新だけでは新しい効果量や追加研究の寄与を特定できない。",
+        "更新日を新規の介入研究発表日と扱うべきではない。"
+      ],
+      "implications": "現地での導入・継続判断には犯罪減少だけでなく、実施量・遵守率・時間・費用といった実装指標を含めた評価が必要。",
+      "source": {
+        "name": "College of Policing / Crime Reduction Toolkit",
+        "title": "Hot spots policing",
+        "url": "https://www.college.police.uk/research/crime-reduction-toolkit/hot-spots-policing",
+        "published_date": "2026-09-30",
+        "type": "review"
+      },
+      "related_research": []
+    },
+    {
+      "id": "20261002-02",
+      "title": "大規模メタ分析：カンナビス使用と暴力に関連―ただし縦断研究では関連が大幅に縮小",
+      "category": "研究",
+      "tags": [
+        "新規収録候補",
+        "隣接エビデンス",
+        "暴力",
+        "メタ分析"
+      ],
+      "region": "international",
+      "summary": "PRISMAに準拠した63研究・265,079人のメタ分析。一般人口で暴力加害との関連はOR 2.05、精神科患者ではOR 2.49だったが、一般人口の縦断研究に限るとOR 1.17となり横断研究より関連が小さかった。因果効果・介入効果は未確認。",
+      "facts": [
+        "Psychological Medicineで2026年9月24日に公開されたPRISMA準拠の系統的レビュー・メタ分析。",
+        "63研究、計265,079人。",
+        "一般人口で暴力加害との関連OR 2.05、精神科患者でOR 2.49。",
+        "一般人口の縦断研究ではOR 1.17、横断研究ではOR 2.37だった。",
+        "暴力被害経験との関連はOR 1.49だった。"
+      ],
+      "interpretation": "暴力リスク評価や薬物関連施策で、カンナビス使用を単独の原因とみなさず、併用薬物、社会環境、衝動性、精神症状などとの関係を検討する必要がある。横断研究の大きなORをそのまま因果効果と解釈しないことが重要。",
+      "evidence": {
+        "level": "moderate-high-association",
+        "description": "関連の存在について中～高。因果効果・介入効果は評価困難。"
+      },
+      "limitations": [
+        "63研究中Good評価は13研究にとどまる。",
+        "定義や曝露測定に異質性があり、出版バイアスの可能性も確認された。",
+        "頻度・用量・THC/CBD比の測定が不十分な研究が多く、残余交絡を排除できない。",
+        "カンナビス使用を減らせば暴力が減ることは未検証。"
+      ],
+      "implications": "薬物と暴力の関連をリスク因子として検討するときは、時間的順序と交絡、アウトカムの定義を確認し、介入の有効性とは分けて扱う。",
+      "source": {
+        "name": "Psychological Medicine / Cambridge University Press",
+        "title": "Cannabis use is associated with increased risk of violence: A systematic review and meta-analysis",
+        "url": "https://www.cambridge.org/core/journals/psychological-medicine/article/cannabis-use-is-associated-with-increased-risk-of-violence-a-systematic-review-and-metaanalysis/FDD438B5E68A40466A1599C875C8C60B",
+        "published_date": "2026-09-24",
+        "type": "research"
+      },
+      "related_research": []
+    },
+    {
+      "id": "20261002-03",
+      "title": "英国初の「対話型AIによる犯罪届出」実証―Citizen Assistが被害申告を構造化して警察システムへ直接送信",
+      "category": "AI・データ",
+      "tags": [
+        "海外比較",
+        "実務実装",
+        "研究課題",
+        "AI",
+        "犯罪届出"
+      ],
+      "region": "international",
+      "summary": "英国NPCCのDigital Public Contact programmeが開発したCitizen AssistがCambridgeshireで9月24日に稼働。非緊急犯罪の申告を自然言語で受け付け、追質問で構造化した報告書を既存の警察システムへ送信する。効果データはまだ公表されていない。",
+      "facts": [
+        "英国National Police Chiefs’ Councilが2026年9月25日に試行開始を公表した。",
+        "Citizen Assistは2026年9月24日にCambridgeshire Constabularyで稼働した。",
+        "非緊急犯罪の自然言語での申告に追質問を行い、構造化された報告書を作成して警察システムに直接送信する。",
+        "初期対象は暴行、脅迫、器物損壊、窃盗。提出前に利用者が内容を確認できる。",
+        "会話記録は6か月保持後に削除され、データは英国国内で処理・保存される。"
+      ],
+      "interpretation": "AIの導入をチャットボットの存在だけで評価せず、届出完了率、所要時間、欠損項目、再聴取回数、誤分類、被害者負担、アクセシビリティ、職員工数を比較すべきである。AIを捜査判断ではなく情報収集・構造化に限定する設計にも着目する。",
+      "evidence": {
+        "level": "moderate-implementation-no-outcome",
+        "description": "実装事例として中程度。業務効率・市民体験・捜査成果への効果は未検証。"
+      },
+      "limitations": [
+        "パイロット開始に関する一次情報であり、現時点では効果データがない。",
+        "「より完全な報告」や「負担軽減」は期待であり、実証された結果ではない。",
+        "AI利用者と従来チャネル利用者の選択バイアスに注意が必要。"
+      ],
+      "implications": "実証評価ではAI利用者と従来チャネル利用者の差だけでなく、選択バイアスを考慮した設計とプロセス・アウトカム双方の測定が必要。",
+      "source": {
+        "name": "National Police Chiefs’ Council (NPCC)",
+        "title": "Policing’s first AI online crime reporting test goes live",
+        "url": "https://news.npcc.police.uk/releases/policings-first-ai-online-crime-reporting-test-goes-live",
+        "published_date": "2026-09-25",
+        "type": "official"
+      },
+      "related_research": []
+    }
+  ]
+}
