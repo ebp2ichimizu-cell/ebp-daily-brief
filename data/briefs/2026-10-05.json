@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-05",
+  "pdf_url": "https://drive.google.com/file/d/1CsTfVz0bfP90SFzS7QLRAMN3ig-QO6kQ/view?usp=drivesdk",
+  "articles": [
+    {
+      "id": "20261005-01",
+      "title": "特殊詐欺等は8月末で2,360.7億円―SNS型投資詐欺が937.4億円、ニセ警察詐欺は件数減でも被害額増",
+      "category": "政策・実務",
+      "tags": [
+        "実務実装",
+        "研究課題",
+        "特殊詐欺",
+        "SNS型投資詐欺",
+        "国内統計"
+      ],
+      "region": "domestic",
+      "summary": "警察庁が10月2日に公表した2026年8月末の暫定統計では、特殊詐欺等の被害額が2,360.7億円に達した。ニセ警察詐欺は認知件数が減少した一方、被害額は増加。防犯施策のKPIには件数と損失額の双方が必要となる。",
+      "facts": [
+        "警察庁は2026年10月2日、令和8年8月末の特殊詐欺等の暫定値を公表した。",
+        "合計29,687件、被害額2,360.7億円で、前年同期比は件数14.4%増、被害額33.2%増だった。",
+        "SNS型投資詐欺は7,097件、被害額937.4億円で、前年同期比49.4%増、53.8%増だった。",
+        "ニセ警察詐欺は6,346件（4.1%減）だが、被害額は728.6億円（27.0%増）だった。",
+        "警察庁推奨アプリの累計ダウンロードは約221.45万件だった。"
+      ],
+      "interpretation": "防犯実務では認知件数だけでなく、1件当たり損失、送金経路、接触チャネルを分けて追う必要がある。ニセ警察詐欺の件数減・被害額増の併存は、件数のみのKPIでは判断を誤る可能性を示す。被害額の大きいSNS型投資詐欺では、プラットフォーム・金融機関・警察をまたぐ送金前介入の評価が重要となる。",
+      "evidence": {
+        "level": "high-descriptive-no-causal",
+        "description": "全国一次統計として高い。対策の効果推定は不可。"
+      },
+      "limitations": [
+        "暫定的な認知統計であり、実被害全体を把握したものではない。",
+        "認知件数は届出、分類、捜査実務の影響を受ける。",
+        "対策の因果効果は推定できない。アプリダウンロード数は利用継続、警告到達、被害回避を示さない。"
+      ],
+      "implications": "詐欺対策の評価では、認知件数と被害額、1件当たり被害、接触チャネル、送金前遮断・被害回避までを分けて測定する。",
+      "source": {
+        "name": "警察庁",
+        "title": "特殊詐欺等の認知・検挙状況（令和8年8月末暫定値）",
+        "url": "https://www.npa.go.jp/bureau/safetylife/sos47/new-topics/261002/01.html",
+        "published_date": "2026-10-02",
+        "type": "official"
+      },
+      "related_research": []
+    },
+    {
+      "id": "20261005-02",
+      "title": "IPVだけが暴力犯罪減少から取り残される可能性―PERFが「mandatory arrest」から「mandatory intervention」へ再検討",
+      "category": "研究",
+      "tags": [
+        "海外比較",
+        "関連研究",
+        "研究課題",
+        "IPV",
+        "DV"
+      ],
+      "region": "international",
+      "summary": "米国Police Executive Research Forum（PERF）が、親密なパートナー間暴力（IPV）の警察対応を再検討。一律の逮捕ではなく、リスク評価や安全計画、支援、継続対応など状況に応じた必須介入を議論したが、新たな介入案の優位性はまだ実証されていない。",
+      "facts": [
+        "PERFは2026年10月3日、全般的な暴力犯罪減少に比べIPVの低下が鈍い可能性について、会員調査と専門家会合の論点を公表した。",
+        "会合には100人超の警察幹部、研究者らが参加した。",
+        "1984年Minneapolis Domestic Violence Experimentの6都市追試で反復暴力が2都市で減少、1都市で変化なし、3都市で増加したという混合結果が再確認された。",
+        "一律のmandatory arrestから、事案に応じたmandatory interventionの考え方が議論された。"
+      ],
+      "interpretation": "「何かを必ずする」と「必ず逮捕する」を分ける発想が重要である。リスク評価、安全計画、被害者支援、フォローアップ捜査を介入パッケージとして測り、事件類型と再被害リスク別に結果を比較する必要がある。記録精度の改善によって認知件数が増え得るため、件数の増加を直ちに治安悪化と解釈しない。",
+      "evidence": {
+        "level": "moderate-review-unverified-intervention",
+        "description": "問題設定・既存研究の再評価として中程度。新提案の効果は未検証。"
+      },
+      "limitations": [
+        "PERF会員調査は全国代表標本ではなく、この記事自体は新規の因果評価ではない。",
+        "IPVの増減は定義の違いや報告・記録改善の影響を受ける。",
+        "mandatory interventionの優位性は政策提案段階であり、直接比較RCT等で確かめられていない。"
+      ],
+      "implications": "DV・IPV対応では逮捕件数だけでなく、再被害、記録精度、安全計画や支援への接続、リスク別のアウトカムを測定する。",
+      "source": {
+        "name": "Police Executive Research Forum (PERF)",
+        "title": "PERF: Trending（2026年10月3日）",
+        "url": "https://www.policeforum.org/trending3oct26",
+        "published_date": "2026-10-03",
+        "type": "other"
+      },
+      "related_research": []
+    },
+    {
+      "id": "20261005-03",
+      "title": "警察AIの新しいオープンアクセス章―導入判断を「精度」からデータ品質・human oversight・mission creepまで拡張",
+      "category": "AI・データ",
+      "tags": [
+        "海外比較",
+        "実務実装",
+        "研究課題",
+        "警察AI",
+        "ガバナンス"
+      ],
+      "region": "international",
+      "summary": "Springer刊行の学術書章が、顔認証、通報処理、予測配置など警察AIの用途を整理。導入時にはデータ品質、人間の最終承認、説明可能性、外部監督、automation bias、mission creepを検討する必要性を示す規範的な整理であり、個別AI製品の効果検証ではない。",
+      "facts": [
+        "2026年10月2日、Springerの学術書『Accountability for Artificial Intelligence in Policing and Security』の章がオンライン公開された。",
+        "顔認証、通報処理、データ分析、予測配置、CSAM分類等の警察AI用途を整理している。",
+        "導入前のデータ品質確認、人間による最終承認、説明可能性、外部監督、automation bias、mission creepへの対応を論じている。",
+        "章はUKRIのAI Accountability for Policing and Security（AIPAS）プロジェクトの支援を受けている。"
+      ],
+      "interpretation": "実務上はAI調達時の評価表に活用できる。目的、入力データ、精度、人間の確認、誤り時の救済、用途拡張の統制、継続監査、最終アウトカムを導入前に定義すべきである。処理速度や導入数だけでなく、AIが担う判断と人が承認する判断の境界を明示する必要がある。",
+      "evidence": {
+        "level": "moderate-governance-low-effect",
+        "description": "ガバナンス枠組みとして中程度。施策効果エビデンスとして低い。"
+      },
+      "limitations": [
+        "実証研究やシステマティックレビューではなく、概説・規範的章である。",
+        "便益として挙げられた事項には潜在的便益が含まれる。",
+        "犯罪減少や業務効率、個別AI製品の有効性は直接検証されていない。"
+      ],
+      "implications": "AI調達・運用評価では、データ品質、説明可能性、人間の承認、誤り時の救済、二次利用、監査、最終アウトカムを事前に測定可能な項目とする。",
+      "source": {
+        "name": "Springer",
+        "title": "Accountability for Artificial Intelligence in Policing and Security（学術書章）",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-032-41284-3_1",
+        "published_date": "2026-10-02",
+        "type": "research"
+      },
+      "related_research": []
+    },
+    {
+      "id": "20261005-04",
+      "title": "大学警察のALPRが全国ネットワークの検索端点に―8機関の部分記録で移民関連検索11,935件",
+      "category": "AI・データ",
+      "tags": [
+        "海外比較",
+        "実務実装",
+        "研究課題",
+        "ALPR",
+        "データ共有"
+      ],
+      "region": "international",
+      "summary": "2026年の査読研究『Flock on campus』が大学警察8機関の部分的な公開記録から移民関連検索11,935件を確認。警察や連邦機関による二次利用・外部共有について、アクセス権限、用途、監査ログを含むガバナンス設計の必要性を示す。",
+      "facts": [
+        "2026年の査読研究『Flock on campus』を、10月3日の解説を契機に再確認した。",
+        "大学警察8機関の部分的な公開記録から、移民関連検索11,935件が確認された。",
+        "連邦機関が大学側の十分な認識なしにキャンパスのALPRデータへアクセスした例も報告された。",
+        "別の公表情報では、2025年にCBPが8万台超のFlockカメラへアクセスした全国的試行が報じられた。これは同一研究の結果ではない。"
+      ],
+      "interpretation": "防犯カメラや自動ナンバープレート読取（ALPR）の評価を自組織の検索件数のみに限定しないことが重要。外部機関への共有、検索目的、権限、保存期間、監査ログを実装設計に含め、二次利用を事後監査だけに頼らず統制する必要がある。",
+      "evidence": {
+        "level": "moderate-implementation-no-effect",
+        "description": "実装・監査研究として中程度。犯罪予防効果は評価困難。"
+      },
+      "limitations": [
+        "公開記録に基づく観察研究で対象は8機関の部分的な記録に限定され、全米大学警察の代表ではない。",
+        "ALPRによる検挙・予防の純便益とプライバシーコストを比較した効果研究ではない。",
+        "8万台超へのアクセスは別資料に由来し、論文中の11,935件と統合して扱うべきではない。"
+      ],
+      "implications": "広域カメラ・車両データ連携の評価には、外部機関の利用、目的外アクセス、権限設定、保存期間、監査ログ、違反発生時の統制を含める。",
+      "source": {
+        "name": "Policing and Society (Taylor & Francis)",
+        "title": "Flock on campus",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/10439463.2026.2702635",
+        "published_date": "2026",
+        "type": "research"
+      },
+      "related_research": []
+    }
+  ]
+}
