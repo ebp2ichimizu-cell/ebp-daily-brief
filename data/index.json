@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "2026-10-06",
+      "count": 2,
+      "file": "data/briefs/2026-10-06.json"
+    },
+    {
       "date": "2026-10-05",
       "count": 4,
       "file": "data/briefs/2026-10-05.json"

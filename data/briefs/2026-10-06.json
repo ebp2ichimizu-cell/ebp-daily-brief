@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-06",
+  "pdf_url": "https://drive.google.com/file/d/1BFxJ7gV-_vmlyHVJpfarGXCam2jdH4Ye/view?usp=drivesdk",
+  "articles": [
+    {
+      "id": "20261006-01",
+      "title": "警察への信頼は「総合点」では捉えきれない―ボストン252人・オークランド331人の2研究で、少数集団はcompassion／compatibilityが主要因",
+      "category": "研究",
+      "tags": [
+        "海外比較",
+        "関連研究",
+        "研究課題",
+        "警察への信頼",
+        "住民調査"
+      ],
+      "region": "international",
+      "summary": "Psychology, Crime & Lawの査読研究は、ボストン252人とオークランド331人を対象に警察への信頼を5次元で測定した。少数集団ではcompassionやcompatibilityなどが総合的な信頼と強く関連し、単一の総合指標では改善点を特定しにくいことを示す。",
+      "facts": [
+        "ボストン252人（Black 136、White 116）とオークランド331人（Māori 170、White New Zealander 161）を対象にした2研究である。",
+        "警察への信頼をcompetence、integrity、compassion、compatibility、securityの5次元で測定した。",
+        "両都市で少数集団の信頼は多数集団より低かった。",
+        "Black参加者ではcompassion・compatibility・security、Māori参加者ではcompassion・compatibilityが総合的な信頼と強く関連した。"
+      ],
+      "interpretation": "地域警察活動や住民接触を評価するとき、単一の「警察を信頼しますか」という指標だけでなく、「能力」「公正・誠実さ」「自分たちを気にかけているか」「価値観・背景への適合」「脅威を感じないか」に分解すると、どこを改善すべきか特定しやすい。日本で地域別・属性別に住民調査を設計する際の測定枠組みとして参考になる。",
+      "evidence": {
+        "level": "moderate-observational",
+        "description": "信頼構造の観察研究として中程度。介入効果は未検証。"
+      },
+      "limitations": [
+        "横断的な質問紙研究で、信頼を高める介入の効果を検証したものではない。",
+        "ボストン調査は2016年、オークランドは2022～23年で時期が異なり、各3地区の標本で国全体を代表しない。",
+        "Study 1とStudy 2では尺度項目も改訂されている。",
+        "compassionを改善すれば信頼が上がるという因果推論はできない。"
+      ],
+      "implications": "警察への信頼を測る際は総合点だけでなく、能力、公正・誠実さ、compassion、compatibility、securityなどの構成要素に分け、改善対象を特定できる設計にする。",
+      "source": {
+        "name": "Psychology, Crime & Law",
+        "title": "警察への信頼を多次元で測定したボストン・オークランドの2研究",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/1068316X.2026.2719921",
+        "published_date": "2026-09-01",
+        "type": "research"
+      },
+      "related_research": []
+    },
+    {
+      "id": "20261006-02",
+      "title": "自己教師ありGraph Transformerで暗号資産マネロン検知―ベンチマークでは高精度、ただし現場効果とは別物",
+      "category": "AI・データ",
+      "tags": [
+        "隣接エビデンス",
+        "実務実装",
+        "研究課題",
+        "暗号資産",
+        "AML",
+        "Graph Transformer"
+      ],
+      "region": "international",
+      "summary": "Discover Artificial Intelligenceの研究は、暗号資産取引をグラフ化し、自己教師あり学習と疑似ラベル学習を組み合わせたGT-SSLを提案した。2つのベンチマークで高いF1・AUCを示したが、既存データ上の手法研究であり、実際の検挙率や犯罪抑止効果とは区別する必要がある。",
+      "facts": [
+        "暗号資産取引をグラフ化し、自己教師あり学習と疑似ラベル学習を組み合わせたGT-SSLを提案した。",
+        "EllipticとAML-Bitcoinの2ベンチマークでF1は95.80%と93.78%、AUCは97.62%と95.91%だった。",
+        "平均false positive rateは2.58%、false negative rateは7.09%と報告された。",
+        "実験は複数seedでも反復され、低ラベル条件も検証された。"
+      ],
+      "interpretation": "捜査・AML実務で重要なのは、ラベルが少ない状況でも取引ネットワークの構造から疑わしい候補を絞り込める可能性である。警察・金融機関で使うなら、検知精度だけでなく、1件のアラート確認時間、誤警告による工数、見逃し損失、説明可能性を合わせて評価すべきである。",
+      "evidence": {
+        "level": "moderate-methodological",
+        "description": "手法研究として中程度。現場の捜査・犯罪抑止効果は評価困難。"
+      },
+      "limitations": [
+        "現場導入試験ではなく既存データセット上の手法研究である。",
+        "GT-SSLは静的グラフモデルで、リアルタイムの分布変化や新しい犯罪手口へのオンライン適応は行わない。",
+        "計算コストが高い。",
+        "ベンチマーク上のF1を、実際のマネロン検挙率や犯罪抑止効果として扱ってはいけない。"
+      ],
+      "implications": "AI検知モデルの評価ではF1やAUCだけでなく、アラート確認時間、誤警告工数、見逃し損失、説明可能性、実運用下の検挙・捜査成果を分けて測る。",
+      "source": {
+        "name": "Discover Artificial Intelligence",
+        "title": "自己教師ありGraph Transformerによる暗号資産マネーロンダリング検知",
+        "url": "https://link.springer.com/article/10.1007/s44163-026-02264-2",
+        "published_date": "2026-09-27",
+        "type": "research"
+      },
+      "related_research": []
+    }
+  ]
+}
