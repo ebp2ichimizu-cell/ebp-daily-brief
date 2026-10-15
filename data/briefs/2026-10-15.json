@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-15",
+  "pdf_url": "https://drive.google.com/file/d/14nT62f5IxIIlIuyYE5LLsc_CDBFQcc1P/view?usp=drivesdk",
+  "articles": [
+    {
+      "id": "20261015-01",
+      "title": "公開アプリを手掛かりとする「A2B攻撃」をNICTが特定",
+      "category": "AI・データ",
+      "tags": [
+        "隣接エビデンス",
+        "研究課題",
+        "サイバー犯罪",
+        "A2B攻撃",
+        "API"
+      ],
+      "region": "domestic",
+      "summary": "NICTの脅威情報分析チームLETTICEは、公開Androidアプリを解析し、接続先やAPIの仕様を手掛かりにバックエンドサーバの脆弱性を狙う「A2B攻撃」を確認した。事業者向けに侵害確認、脆弱性点検、暫定的な緩和策を提示している。",
+      "facts": [
+        "NICTの脅威情報分析チームLETTICEは、公開Androidアプリを解析し、接続先やAPIの仕様を手掛かりにバックエンドサーバの脆弱性を狙う「A2B攻撃」を確認した。",
+        "事業者向けに「侵害の確認」「脆弱性の点検」「暫定的な緩和策」を提示した。"
+      ],
+      "interpretation": "利用者への注意喚起に加え、サービス提供側の認証・認可やAPIの安全性を点検する必要がある。警察実務では、被害事案の攻撃経路を分類し、同種事業者への再発防止情報に還元することが考えられる。",
+      "evidence": {
+        "level": "high-technical-advisory-no-causal",
+        "description": "実際の攻撃分析に基づく技術的注意喚起。対策の因果効果は評価困難。"
+      },
+      "limitations": [
+        "国内の情報漏えい全体に占めるA2B攻撃の割合は示されていない。",
+        "AIによる攻撃効率化は可能性の指摘であり、被害増加の実測結果ではない。",
+        "推奨対策の犯罪減少効果も未検証である。"
+      ],
+      "implications": "サイバー犯罪対策では、攻撃の検知件数だけでなく、侵害発見、脆弱性修正、緩和策実施、再発の有無を段階別に記録する。",
+      "source": {
+        "name": "NICT",
+        "title": "公開アプリを手掛かりとするA2B攻撃に関する報道発表",
+        "url": "https://www.nict.go.jp/press/2026/10/13-1.html",
+        "published_date": "2026-10-13",
+        "type": "official"
+      },
+      "related_research": [
+        {
+          "title": "NICT CYNEX 技術的注意喚起",
+          "url": "https://cynex.nict.go.jp/library/261013-01.html"
+        }
+      ]
+    },
+    {
+      "id": "20261015-02",
+      "title": "生成AIの「能動的評価基盤」、社会実装に向けた取り組み開始",
+      "category": "AI・データ",
+      "tags": [
+        "隣接エビデンス",
+        "研究課題",
+        "生成AI",
+        "AI安全性",
+        "継続評価"
+      ],
+      "region": "domestic",
+      "summary": "NICT、さくらインターネット、Preferred Networksは、生成AIを継続的に評価・改善する「能動的評価基盤」の社会実装に向けた取り組みを発表した。NICTは誤情報、犯罪や迷惑行為を助長する回答、ハルシネーション等を検査する仕組みを開発中で、一部の評価コンポーネントは試作段階にある。",
+      "facts": [
+        "NICT、さくらインターネット、Preferred Networksは、生成AIを継続的に評価・改善する「能動的評価基盤」の社会実装に向けた取り組みを発表した。",
+        "NICTは誤情報、犯罪や迷惑行為を助長する回答、ハルシネーション等を検査する仕組みを開発中である。",
+        "一部の評価コンポーネントは試作段階にある。"
+      ],
+      "interpretation": "警察業務への生成AI導入では、初期の性能試験に加え、運用中の誤回答、根拠のない断定、情報管理上のリスクを継続的に評価する考え方が参考になる。",
+      "evidence": {
+        "level": "high-rd-primary-unverified-effect",
+        "description": "研究開発の進捗に関する一次情報。評価手法の妥当性と実務効果は評価困難。"
+      },
+      "limitations": [
+        "社会実装に向けた取り組みの開始であり、完成・導入効果を意味しない。",
+        "警察業務での誤判断の減少や、犯罪抑止への効果は検証されていない。"
+      ],
+      "implications": "生成AIの実装評価では、評価を実施したか、問題を検知できたか、改善したか、改善後の再評価で問題が減ったかを別々に記録する。",
+      "source": {
+        "name": "NICT",
+        "title": "生成AIの能動的評価基盤の社会実装に向けた3者共同報道発表",
+        "url": "https://www.nict.go.jp/press/2026/10/14-1.html",
+        "published_date": "2026-10-14",
+        "type": "official"
+      },
+      "related_research": []
+    }
+  ]
+}
