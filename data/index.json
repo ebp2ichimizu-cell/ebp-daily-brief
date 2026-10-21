@@ -1,174 +1,220 @@
 {
   "entries": [
     {
-      "date": "2026-10-20",
-      "count": 2,
-      "file": "data/briefs/2026-10-20.json"
-    },
-    {
-      "date": "2026-10-19",
-      "count": 3,
-      "file": "data/briefs/2026-10-19.json"
-    },
-    {
-      "date": "2026-10-16",
-      "count": 2,
-      "file": "data/briefs/2026-10-16.json"
-    },
-    {
-      "date": "2026-10-15",
-      "count": 2,
-      "file": "data/briefs/2026-10-15.json"
-    },
-    {
-      "date": "2026-10-14",
-      "count": 3,
-      "file": "data/briefs/2026-10-14.json"
-    },
-    {
-      "date": "2026-10-13",
-      "count": 3,
-      "file": "data/briefs/2026-10-13.json"
-    },
-    {
-      "date": "2026-10-12",
-      "count": 3,
-      "file": "data/briefs/2026-10-12.json"
-    },
-    {
-      "date": "2026-10-09",
-      "count": 4,
-      "file": "data/briefs/2026-10-09.json"
-    },
-    {
-      "date": "2026-10-08",
-      "count": 3,
-      "file": "data/briefs/2026-10-08.json"
-    },
-    {
-      "date": "2026-10-07",
-      "count": 3,
-      "file": "data/briefs/2026-10-07.json"
-    },
-    {
-      "date": "2026-10-06",
-      "count": 2,
-      "file": "data/briefs/2026-10-06.json"
-    },
-    {
-      "date": "2026-10-05",
-      "count": 4,
-      "file": "data/briefs/2026-10-05.json"
-    },
-    {
-      "date": "2026-10-02",
-      "count": 3,
-      "file": "data/briefs/2026-10-02.json"
-    },
-    {
-      "date": "2026-10-01",
-      "count": 3,
-      "file": "data/briefs/2026-10-01.json"
-    },
-    {
-      "date": "2026-09-30",
-      "count": 3,
-      "file": "data/briefs/2026-09-30.json"
-    },
-    {
-      "date": "2026-09-29",
-      "count": 3,
-      "file": "data/briefs/2026-09-29.json"
-    },
-    {
-      "date": "2026-09-28",
-      "count": 2,
-      "file": "data/briefs/2026-09-28.json"
-    },
-    {
-      "date": "2026-09-25",
-      "count": 3,
-      "file": "data/briefs/2026-09-25.json"
-    },
-    {
-      "date": "2026-09-24",
-      "count": 2,
-      "file": "data/briefs/2026-09-24.json"
-    },
-    {
-      "date": "2026-09-23",
-      "count": 3,
-      "file": "data/briefs/2026-09-23.json"
-    },
-    {
-      "date": "2026-09-22",
-      "count": 2,
-      "file": "data/briefs/2026-09-22.json"
-    },
-    {
-      "date": "2026-09-21",
-      "count": 3,
-      "file": "data/briefs/2026-09-21.json"
-    },
-    {
-      "date": "2026-09-20",
-      "count": 1,
-      "file": "data/briefs/2026-09-20.json"
-    },
-    {
-      "date": "2026-09-19",
-      "count": 3,
-      "file": "data/briefs/2026-09-19.json"
-    },
-    {
-      "date": "2026-09-18",
-      "count": 4,
-      "file": "data/briefs/2026-09-18.json"
-    },
-    {
+      "day": 1,
       "date": "2026-09-17",
-      "count": 4,
-      "file": "data/briefs/2026-09-17.json"
+      "title": "まず「数字を正しく比べる」",
+      "description": "知識5題＋Excel演習1題。観察された変化と因果効果を分ける基礎から始めます。",
+      "format_label": "知識5題＋演習1題",
+      "file": "data/days/day1.json"
     },
     {
-      "date": "2026-09-16",
-      "count": 5,
-      "file": "data/briefs/2026-09-16.json"
+      "day": 2,
+      "date": "2026-09-18",
+      "title": "割合・率を比べる：件数だけで判断しない",
+      "description": "Driveに保存していた既存教材をGitHub版へ移植。",
+      "format_label": "知識5題＋演習1題",
+      "file": "data/days/day2.json"
     },
     {
-      "date": "2026-09-15",
-      "count": 5,
-      "file": "data/briefs/2026-09-15.json"
+      "day": 3,
+      "date": "2026-09-19",
+      "title": "ばらつきを見る：平均が同じでも、現場は同じではない",
+      "description": "Driveに保存していた既存教材をGitHub版へ移植。",
+      "format_label": "知識5題＋演習1題",
+      "file": "data/days/day3.json"
     },
     {
-      "date": "2026-09-14",
-      "count": 5,
-      "file": "data/briefs/2026-09-14.json"
+      "day": 4,
+      "date": "2026-09-20",
+      "title": "クロス集計で割合を比べる：件数の差を分母から読み直す",
+      "description": "Driveに保存していた既存教材をGitHub版へ移植。",
+      "format_label": "知識5題＋演習1題",
+      "file": "data/days/day4.json"
     },
     {
-      "date": "2026-09-13",
-      "count": 5,
-      "file": "data/briefs/2026-09-13.json"
+      "day": 5,
+      "date": "2026-09-21",
+      "title": "変化量を比べる：絶対差・相対差・パーセントポイント",
+      "description": "Driveに保存していた既存教材をGitHub版へ移植。",
+      "format_label": "知識5題＋演習1題",
+      "file": "data/days/day5.json"
     },
     {
-      "date": "2026-09-12",
-      "count": 5,
-      "file": "data/briefs/2026-09-12.json"
+      "day": 6,
+      "date": "2026-09-22",
+      "title": "カイ二乗検定の入口：関連の有無と因果を分ける",
+      "description": "Driveに保存していた既存教材をGitHub版へ移植。",
+      "format_label": "知識5題＋演習1題",
+      "file": "data/days/day6.json"
     },
     {
-      "date": "2026-09-11",
-      "count": 5,
-      "file": "data/briefs/2026-09-11.json"
+      "day": 7,
+      "date": "2026-09-23",
+      "title": "95％信頼区間の入口：平均値に不確実性の幅を付ける",
+      "description": "Driveに保存していた既存教材をGitHub版へ移植。",
+      "format_label": "知識5題＋演習1題",
+      "file": "data/days/day7.json"
     },
     {
-      "date": "2026-09-10",
-      "count": 5,
-      "file": "data/briefs/2026-09-10.json"
+      "day": 8,
+      "date": "2026-09-24",
+      "title": "独立2群のt検定：p値・平均差・効果量を一緒に読む",
+      "description": "Driveに保存していた既存教材をGitHub版へ移植。",
+      "format_label": "知識5題＋演習1題",
+      "file": "data/days/day8.json"
     },
     {
-      "date": "2026-09-09",
-      "count": 5,
-      "file": "data/briefs/2026-09-09.json"
+      "day": 9,
+      "date": "2026-09-25",
+      "title": "対応のあるt検定：同じ人の前後差を分析する",
+      "description": "Driveに保存していた既存教材をGitHub版へ移植。",
+      "format_label": "知識5題＋演習1題",
+      "file": "data/days/day9.json"
+    },
+    {
+      "day": 10,
+      "date": "2026-09-28",
+      "title": "相関係数と散布図：関係の強さと因果を分ける",
+      "description": "Driveに保存していた既存教材をGitHub版へ移植。",
+      "format_label": "知識5題＋演習1題",
+      "file": "data/days/day10.json"
+    },
+    {
+      "day": 11,
+      "date": "2026-09-29",
+      "title": "単回帰分析の入口：予測式・残差・因果の限界",
+      "description": "Driveに保存していた既存教材をGitHub版へ移植。",
+      "format_label": "知識5題＋演習1題",
+      "file": "data/days/day11.json"
+    },
+    {
+      "day": 12,
+      "date": "2026-09-30",
+      "title": "比較群を使う介入前後比較：差の差の入口",
+      "description": "比較群の同時期変化を差し引く差の差をExcelで計算し、平行トレンド等の前提と因果解釈の限界を学ぶ。",
+      "format_label": "知識3題＋演習1題",
+      "file": "data/days/day12.json"
+    },
+    {
+      "day": 13,
+      "date": "2026-10-01",
+      "title": "一元配置分散分析：3種類の防犯広報を比較する",
+      "description": "3種類の独立した防犯広報条件をjamoviで比較し、ANOVA、効果量η²、Tukey事後比較とEBP上の解釈を学ぶ。",
+      "format_label": "知識3題＋演習1題",
+      "file": "data/days/day13.json"
+    },
+    {
+      "day": 14,
+      "date": "2026-10-02",
+      "title": "2×2クロス集計とカイ二乗検定：関連の有無と因果を分ける",
+      "description": "架空データの2×2クロス集計から導入率、期待度数、χ²検定、φをExcelで計算し、観察的な関連と因果を区別する。",
+      "format_label": "知識3題＋演習1題",
+      "file": "data/days/day14.json"
+    },
+    {
+      "day": 15,
+      "date": "2026-10-05",
+      "title": "相対リスク・絶対リスク差・NNT：施策効果を実務の規模で読む",
+      "description": "Excelでリスク割合、RR、RD、NNT、95％信頼区間を計算。施策の統計的不確実性と実務規模を区別する。",
+      "format_label": "知識3題＋演習1題",
+      "file": "data/days/day15.json"
+    },
+    {
+      "day": 16,
+      "date": "2026-10-06",
+      "title": "独立2群のt検定：平均差・95％信頼区間・効果量を読む",
+      "description": "jamoviでWelchの独立2群t検定を行い、平均差、95％信頼区間、Cohen’s dを読み、統計的有意性と実務判断を分けて考える。",
+      "format_label": "知識3題＋演習1題",
+      "file": "data/days/day16.json"
+    },
+    {
+      "day": 17,
+      "date": "2026-10-07",
+      "title": "粗い集計に潜む交絡：層別化と直接標準化",
+      "description": "Excelで粗被害率、リスク層別被害率、直接標準化被害率を比較し、群のリスク構成による交絡と因果解釈の限界を学ぶ。",
+      "format_label": "知識3題＋演習1題",
+      "file": "data/days/day17.json"
+    },
+    {
+      "day": 18,
+      "date": "2026-10-08",
+      "title": "介入前の値を調整する重回帰：単純比較から一歩進む",
+      "description": "jamoviで介入後被害率を群と介入前被害率から重回帰し、調整後群差・95％信頼区間・モデル診断と因果解釈の限界を学ぶ。",
+      "format_label": "知識3題＋演習1題",
+      "file": "data/days/day18.json"
+    },
+    {
+      "day": 19,
+      "date": "2026-10-09",
+      "title": "介入前後の変化を比較する：差の差（DID）の入門",
+      "description": "Excelで介入群と比較群の前後差から差の差（DID）を計算し、平行トレンド仮定と因果解釈の限界を学ぶ。",
+      "format_label": "知識3題＋演習1題",
+      "file": "data/days/day19.json"
+    },
+    {
+      "day": 20,
+      "date": "2026-10-12",
+      "title": "介入前の傾向を延長する：中断時系列の初歩",
+      "description": "Excelで施策前8週の直線傾向を延長し、単純前後差と予測との差を比較して、反実仮想の仮定と因果解釈の限界を学ぶ。",
+      "format_label": "知識3題＋演習1題",
+      "file": "data/days/day20.json"
+    },
+    {
+      "day": 21,
+      "date": "2026-10-13",
+      "title": "同じ対象者の前後差を調べる：対応のあるt検定",
+      "description": "jamoviで同一参加者20人の知識得点の前後差を対応のあるt検定で分析し、平均差・95％信頼区間・Cohen’s dzと因果解釈の限界を学ぶ。",
+      "format_label": "知識3題＋演習1題",
+      "file": "data/days/day21.json"
+    },
+    {
+      "day": 22,
+      "date": "2026-10-14",
+      "title": "分母をそろえて比べる：発生率・率比・95％信頼区間",
+      "description": "Excelで店舗営業時間を分母とする発生率、率差、率比、近似95％信頼区間を計算し、観測上の変化と因果効果の違いを学ぶ。",
+      "format_label": "知識3題＋演習1題",
+      "file": "data/days/day22.json"
+    },
+    {
+      "day": 23,
+      "date": "2026-10-15",
+      "title": "3群の平均を比べる：一元配置分散分析と事後比較",
+      "description": "jamoviで30人・3群の理解度得点を一元配置分散分析し、F値・η²・Tukey事後比較を実データに基づいて解釈する。",
+      "format_label": "知識3題＋演習1題",
+      "file": "data/days/day23.json"
+    },
+    {
+      "day": 24,
+      "date": "2026-10-16",
+      "title": "全体相関と層別相関：交絡を見抜く",
+      "description": "Excelで12地区の全体相関と住宅・繁華地区別の層別相関を計算し、地区類型による交絡と因果解釈の限界を学ぶ。",
+      "format_label": "知識3題＋演習1題",
+      "file": "data/days/day24.json"
+    },
+    {
+      "day": 25,
+      "date": "2026-10-19",
+      "title": "介入前後比較の一歩先：差の差とその限界",
+      "description": "Excelで介入地区・比較地区の4期の自転車盗件数を用いて差の差（DID）と反実仮想を計算し、平行トレンドや波及・交絡の限界を学ぶ。",
+      "format_label": "知識3題＋演習1題",
+      "file": "data/days/day25.json"
+    },
+    {
+      "day": 26,
+      "date": "2026-10-20",
+      "title": "同じ人の前後を比べる：対応ありt検定と因果推論の境界",
+      "description": "jamoviで同じ10人の研修前後の得点を対応ありt検定し、平均差・95％信頼区間・p値と因果推論の限界を学ぶ。",
+      "format_label": "知識3題＋演習1題",
+      "file": "data/days/day26.json"
+    },
+    {
+      "day": 27,
+      "date": "2026-10-21",
+      "title": "サンプルサイズと95%信頼区間：「有意でない＝効果なし」と読まない",
+      "description": "Excelで各群10人・40人の研究を比較し、同じ平均差・効果量でもp値と95％信頼区間が異なること、非有意は効果なしの証明ではないことを学ぶ。",
+      "format_label": "知識3題＋演習1題",
+      "file": "data/days/day27.json"
     }
   ]
 }
