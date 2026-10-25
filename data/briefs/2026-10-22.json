@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-22",
+  "pdf_url": "https://drive.google.com/file/d/14asn1YNukduwNa0z7FZuIg3vPwfB-veJ/view?usp=drivesdk",
+  "articles": [
+    {
+      "id": "20261022-01",
+      "title": "警視庁、個人情報漏えい後の二次被害防止資料を公開",
+      "category": "政策・実務",
+      "tags": [
+        "実務実装",
+        "隣接エビデンス",
+        "個人情報漏えい",
+        "二次被害防止"
+      ],
+      "region": "domestic",
+      "summary": "警視庁は個人情報漏えいに関連する犯罪被害事例と対策をまとめた都民向け・事業者向け資料を公開している。公式ページの更新日は2026年10月21日であり、資料自体の初公開日は確認できない。犯罪被害の減少効果は未検証。",
+      "facts": [
+        "警視庁公式ページは2026年10月21日更新。都民向け・事業者向けの各8ページのPDFを掲載しているが、資料の初公開日は確認できない。",
+        "都民向け資料は、特殊詐欺、強盗・侵入窃盗、悪質訪問業者、フィッシング、不正アクセス・なりすまし、ストーカー・脅迫等を漏えい情報悪用による想定被害として整理する。",
+        "対策には不審リンク回避、パスワード使い回し防止、多要素認証・パスキー、住宅の防犯性能向上、相談・通報などが含まれる。",
+        "事業者向け資料は継続的な対策点検、従業員教育、侵害経路遮断、証拠保全、警察相談などを案内する。"
+      ],
+      "interpretation": "漏えいの発生防止だけでなく、流出情報が犯罪者にどう悪用されるかという被害経路から対策を設計することが重要。連絡先には電話・メール対策、住所・資産情報には住居・訪問対応、認証情報にはアカウント防御が対応する。",
+      "evidence": {
+        "level": "公的な一次資料・介入効果未検証",
+        "description": "一次資料としての確度は高い（警視庁公式資料）。一方、今回のコンテンツについて比較群・追跡調査・被害減少の測定結果を確認できず、介入効果は評価困難。"
+      },
+      "limitations": [
+        "資料中の事例には「想定される事例」が含まれ、犯罪類型ごとの発生頻度は判断できない。",
+        "推奨対策と、個々の対策が被害を減らす因果的証拠は別である。",
+        "閲覧者数、設定変更率、被害率等の効果指標は確認できない。"
+      ],
+      "implications": "閲覧・配布（到達）、多要素認証・着信対策アプリ・パスワード変更・住居防犯設備導入（行動）、フィッシング・不正利用・詐欺等の被害（最終成果）を分けて測定する。可能なら無作為割付、難しければ類似対象との比較や段階導入を検討する。個人情報の収集や自己申告バイアスに注意する。",
+      "source": {
+        "name": "警視庁",
+        "title": "個人情報漏えいと犯罪被害防止（2026年10月21日更新）",
+        "url": "https://www.keishicho.metro.tokyo.lg.jp/kurashi/cyber/joho/information_leak.html",
+        "published_date": "2026-10-21",
+        "type": "official"
+      },
+      "related_research": [
+        {
+          "title": "警視庁：都民向け資料（PDF・8ページ）",
+          "url": "https://www.keishicho.metro.tokyo.lg.jp/kurashi/cyber/joho/information_leak.files/tomin.pdf"
+        },
+        {
+          "title": "警視庁：事業者向け資料（PDF・8ページ）",
+          "url": "https://www.keishicho.metro.tokyo.lg.jp/kurashi/cyber/joho/information_leak.files/jigyou.pdf"
+        },
+        {
+          "title": "警察庁：特殊詐欺対策・推奨アプリ制度",
+          "url": "https://www.npa.go.jp/bureau/safetylife/sos47/apps/index.html"
+        },
+        {
+          "title": "白川真裕・島田貴仁・樋口匡貴（2023）「公的機関の犯罪予防のための情報発信の実験的研究」『心理学研究』93(6), 516–525（2022年11月10日早期公開）。情報提示群60人、統制群49人。意図の改善は一部で見られたが実際の行動変容は必ずしも確認されず、今回の資料の直接評価ではない。",
+          "url": "https://www.jstage.jst.go.jp/article/jjpsy/93/6/93_93.21044/_article/-char/ja/"
+        },
+        {
+          "title": "国内EBP研究HUB：study-0021",
+          "url": "https://github.com/ebp2ichimizu-cell/ichimizu-research-hub-github/blob/main/content/commentary/ja/study-0021.md"
+        }
+      ]
+    }
+  ]
+}
