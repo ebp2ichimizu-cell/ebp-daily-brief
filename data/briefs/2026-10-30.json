@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-30",
+  "pdf_url": "https://drive.google.com/file/d/1HobNd5RY1kUYgCcdfAW6-Nf_dyDACH2E/view?usp=drivesdk",
+  "articles": [
+    {
+      "id": "20261030-01",
+      "title": "越谷市：防犯ドアホン実証に約1,100件の申込み",
+      "category": "政策・実務",
+      "tags": [
+        "実務実装",
+        "研究課題",
+        "関連研究",
+        "防犯カメラ",
+        "住宅防犯"
+      ],
+      "region": "domestic",
+      "summary": "越谷市はRing防犯ドアホン計1,000台を希望世帯に提供する実証を開始。10月28日12時時点の申込みは約1,100件で、設置・稼働や犯罪被害減少を示す数値ではない。",
+      "facts": [
+        "越谷市はAmazonのRingと協定を結び、既存戸建て住宅の希望世帯へ「Ring 防犯ドアホン プロ」1,000台を提供する実証を開始。",
+        "市公式ページに10月28日12時時点の申込み約1,100件とある。市ページの更新日は10月23日。",
+        "初回200世帯へ10月20日にアンケート案内を送付し、次回は2027年1月頃を予定。",
+        "約1,100件は設置台数、有効回答数、利用継続世帯数を意味しない。"
+      ],
+      "interpretation": "申込みは参加意向の先行指標であり、無料提供や機器への関心も反映する。防犯意識、体感治安、実際の被害を分けて追跡する必要がある。",
+      "evidence": {
+        "level": "自治体の実装・参加状況／因果効果は評価困難",
+        "description": "事業開始・募集条件・申込数は自治体一次資料で確認。比較群割付、導入後の有効設置数、実際の犯罪被害減少は未確認。"
+      },
+      "limitations": [
+        "希望者の自己選択により参加・非参加比較には選択バイアスがある。",
+        "事前後アンケートは時期効果、報道、社会的望ましさ、脱落に影響される。",
+        "住宅侵入犯罪は発生頻度が低く、短期間・1,000世帯程度では検出力が不足する可能性がある。",
+        "録画データの保存・提供、プライバシー、運用費の評価が必要。"
+      ],
+      "implications": "申込→適格→設置→稼働→通知への対応→体感治安→侵入窃盗等の被害を分離。比較対象と事前のベースラインを設ける。",
+      "source": {
+        "name": "越谷市",
+        "title": "Ring防犯ドアホンの実証・申込状況",
+        "url": "https://www.city.koshigaya.saitama.jp/anzen_anshin/seikatsubouhan/bouhan/amazon2026.html",
+        "published_date": "2026-10-23",
+        "type": "official"
+      },
+      "related_research": [
+        {
+          "title": "Amazon公式・実証計画",
+          "url": "https://www.aboutamazon.jp/news/devices/ring-and-koshigaya-city"
+        },
+        {
+          "title": "雨宮ら（2017）原著",
+          "url": "https://www.jstage.jst.go.jp/article/reportscpij/16/1/16_18/_article/-char/ja/"
+        },
+        {
+          "title": "国内EBP研究HUB study-0011",
+          "url": "https://ebp2ichimizu-cell.github.io/ichimizu-research-hub-github/#/study/study-0011"
+        },
+        {
+          "title": "Pizaら（2019）CCTVメタ分析",
+          "url": "https://doi.org/10.1111/1745-9133.12419"
+        }
+      ]
+    },
+    {
+      "id": "20261030-02",
+      "title": "ふじみ野市：街頭防犯カメラ映像提供の協定を予定",
+      "category": "政策・実務",
+      "tags": [
+        "実務実装",
+        "研究課題",
+        "関連研究",
+        "CCTV",
+        "映像提供"
+      ],
+      "region": "domestic",
+      "summary": "ふじみ野市は東入間警察署と、市管理の街頭防犯カメラ映像を捜査目的で提供する協定の締結予定を発表。10月30日午前時点では締結予定であり、実施済みとは断定できない。",
+      "facts": [
+        "10月27日、ふじみ野市は東入間警察署との街頭防犯カメラ映像データ提供協定を発表。協定式は10月30日15時〜15時30分に予定された。",
+        "人命・財産保護が優先される緊急時に限り口頭要請を認め、後日速やかに正式書類を提出する運用を想定。",
+        "市は適正なカメラ設置・管理を、警察署は設置場所に関する助言を担う。"
+      ],
+      "interpretation": "映像を設置するだけでなく、必要時の情報提供手続を制度化する事例。捜査での迅速な映像活用とカメラ自体の犯罪抑止は異なる作用経路である。",
+      "evidence": {
+        "level": "協定締結予定の一次発表／効果未検証",
+        "description": "協定内容と予定日時は市の公表で確認。10月30日午前時点で締結完了・映像提供実績・捜査効率化・犯罪減少は未確認。"
+      },
+      "limitations": [
+        "協定式はPDF基準時点で予定段階であり、実施完了は追認されていない。",
+        "映像提供件数、要請から提供までの時間、事件解決への寄与、犯罪認知件数の変化は未公表。",
+        "緊急要請の基準やアクセス記録を監査できなければ適正性を評価しにくい。"
+      ],
+      "implications": "要請件数、提供までの所要時間、捜査への寄与、個人情報管理・監査可能性を継続記録し、カメラ設置による犯罪抑止と区別する。",
+      "source": {
+        "name": "ふじみ野市",
+        "title": "街頭防犯カメラ映像提供協定に関するプレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000247.000099719.html",
+        "published_date": "2026-10-27",
+        "type": "report"
+      },
+      "related_research": [
+        {
+          "title": "雨宮ら（2017）原著",
+          "url": "https://www.jstage.jst.go.jp/article/reportscpij/16/1/16_18/_article/-char/ja/"
+        },
+        {
+          "title": "国内EBP研究HUB study-0011",
+          "url": "https://ebp2ichimizu-cell.github.io/ichimizu-research-hub-github/#/study/study-0011"
+        },
+        {
+          "title": "Pizaら（2019）CCTVメタ分析",
+          "url": "https://doi.org/10.1111/1745-9133.12419"
+        }
+      ]
+    }
+  ]
+}
